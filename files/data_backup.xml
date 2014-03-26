@@ -1,0 +1,1686 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+	<meta>
+		<contact>
+		<![CDATA[
+		
+<div class="kasten">		
+<h4>Inhaltliche Redaktion</h4>
+<ul>
+	<li>PD Dr. S. Azizi Ghanbari (<a href="http://www.ihi-zittau.de">IHI Zittau</a>);</li>
+	<li>Prof. (em.) Dr. Franz Schott (<a href="http://psychologie.tu-dresden.de">TU Dresden</a>);</li>
+	<li>Niels Seidel (<a href="http://elearning.ihi-zittau.de">IHI Zittau</a>).</li>
+</ul>
+</div>
+<div class="kasten">
+<h4>Software Entwicklung</h4>
+Version: 0.14 beta - release 2011-02-23<br/>
+Unterstützte Browser: Mozilla Firefox, Google Chrome<br/>
+URL: <a href="http://elearning.ihi-zittau.de/elearning/owl/">http://elearning.ihi-zittau.de/elearning/owl/</a><br/><br/>
+<strong>OWL Grundkurs</strong> basiert auf der Software GKMS der Firma DevLyn und wurde am <a href="http://www.ihi-zittau.de/">IHI Zittau</a> durch Niels Seidel angepasst und weiterentwickelt.
+</div>
+<br/>
+<img src="images/logo_ihi.png" width="200" alt="Logo IHI Zittau" /><img src="images/logo_tu.png" width="200" alt="Logo TU Dresden" />
+		
+		]]>
+		</contact>
+	</meta>
+	<module id="0">
+		<title>Einleitung</title>
+			<content type="theory" title="Theorie" id="01">
+			<![CDATA[
+<h3>Herzlich willkommen,</h3>
+zum E-Learning-Programm <strong>Hochschuldidaktik</strong>. : „<strong>O</strong>nline <strong>W</strong>issen für die <strong>L</strong>ehre“(<strong>OWL</strong>)  Grundkurs. 
+<p>
+[owl2]
+Diese Seite richtet sich an Lehrende an Hochschulen und solche, die es werden wollen sowie an alle weiteren Personen, die lehren oder sich für dieses Thema interessieren. 
+Sie erwartet eine umfangreiche und nutzbringende Online-Schulung über die Gestaltung effizienter Lehrveranstaltungen. Der Fokus liegt dabei auf dem kompetenzorientierten Unterrichten im Sinne eines zielvaliden Unterrichts mit der Leitfrage:
+"Wie kann die Lehrkraft gewährleisten, dass ihre Lernenden eine gute Chance haben, das zu lernen, was sie am Ende können sollen?"
+</p>
+<p>
+Lehrenden soll damit eine von der jeweiligen Unterrichtsmethodik unabhängige Struktur; ein Schritt-für-Schritt-Verfahren zur Vor- und Nachbereitung von Unterricht an die Hand gegeben werden.
+<br/>
+Der Kurs trägt zur Präzisierung von Lehrstoff und Lehrzielen sowie zur Konstruktion von Lehr- und Prüfungsmaterialien bei. So wird der Fokus des Unterrichtenden bei der Planung, Durchführung sowie Evaluation des Unterrichts auf das Erreichen des Lehrzieles gelenkt.
+<br/>
+Wir bieten ein hilfreiches Instrument an, das die Chancen der Lernenden, die Lehrziele zu erreichen, tatsächlich verbessern kann.
+<br/>
+Übertragen auf den Kontext der Lehrplanung sind Lehre und Lernerfolgskontrolle in dem Maße lehrzielvalide, in dem Lehr- und Lernerfolgskontrolle zum Lehrziel passen.
+</p>
+Im Folgenden möchten wir die Gesamtstruktur des OWL Grundkurses zunächst theoretisch erläutern, um das Verfahren danach an einem Praxisbeispiel anzuwenden.
+Dabei werden im Einzelnen folgende Module behandelt:
+<ul>
+	<li><strong>Zielpräzisierung:</strong> Im ersten Modul soll es um die vorrausschauende Vorbereitung des Unterrichtes gehen, sodass Sie das lehren, was am Ende dem entspricht, was überprüft werden soll.</li>
+	<li><strong>Gestaltung der Lehre:</strong> Das Modul behandelt, die konkrete Gestaltung eines kompetenz- und output–orientierten Unterrichts, bei dem im Vordergrund steht, was die Lernenden am Ende des Unterrichts können sollen.</li>
+	<li><strong>Lernerfolgskontrolle:</strong> Ziel dieses Moduls ist es, zu zeigen wie Sie während oder nach dem Unterricht überprüfen können, ob und wieviel die Lernenden gelernt haben.</li>
+	<li><strong>Qualitätssicherung:</strong> Aufgabe in diesem Modul wird es sein, dass Sie Möglichkeiten erfahren und erlernen Ihre eigenen Lehrtätigkeiten zu überprüfen und gegebenenfalls zu verbessern.</li>
+</ul>
+<p>
+Es werden zu jedem Thema theoretische Hintergründe und Beispiele aufgezeigt. Sie werden gebeten, Schritt für Schritt eine Lehreinheit aus Ihrem Fachgebiet zu konstruieren und erhalten dazu in den einzelnen Modulen entsprechende Aufforderungen. Es ist wichtig, dass Sie diese Möglichkeit des Learning-by-doing wahrnehmen. 
+</p>
+<div id="klappe">
+<h4>Hinweise zu den verwendeten Begriffen</h4>
+Es gibt keine allgemein verbindliche Terminologie in der Didaktik und Lehr-Lern-Forschung. Begriffsnamen wie z.B. „Lehrstoff“, „Kompetenz“ werden mit unterschiedlichen Bedeutungen verwendet. Dies kann zu Missverständnissen und Frustrationen führen. Wir haben uns bemüht, eine einheitliche Terminologie der wichtigen Begriffe vorzustellen und bitten Sie, sich auf diese Begriffsverwendungen einzulassen. 
+</div>
+<div id="klappe">
+<h4>Hinweise zum Entwicklungsstand des Programms</h4>
+Das Programm befindet sich zurzeit noch im Aufbau und liegt aktuell in der zweiten Version vor. Wir würden uns daher sehr freuen, wenn wir mit Ihrer Hilfe mögliche Fehler oder Schwachstellen verbessern können.
+</div>
+
+
+
+]]>
+			</content>
+	</module>
+	<module id="1">
+		<title>Zielpräzisierung</title>
+		<content type="theory" title="Theorie" id="10">
+		<![CDATA[
+Das Modul Zielpräzisierung verfolgt das Ziel, dem Lehrenden Hilfe zur Planung von guter Lehre zu gewährleisten. Bei ‚guter’ Lehre hat der Lernende die Möglichkeit, während der Lehre das zu lernen, was er nach der Durchführung der betreffenden Lehreinheit können soll. Dazu gehören unter anderem folgende Aspekte:
+<ul>
+	<li> die Durchführung von zielvalider Lehre</li>
+	<li>eine genaue Lehrstoffanalyse/Lehrzielpräzisierung</li>
+	<li>die Gewährleistung von paralleler Zielvalidität</li>
+	<li>eine lehrzielvalide Aufgabenanalyse und -auswahl</li>
+	<li>die Erstellung von Aufgabenklassen.</li>
+</ul>
+<p>
+Man unterscheidet bei der Zielpräzisierung das <strong>Gesamtziel</strong> sowie die <strong>Teilziele</strong>. Das Gesamtziel fasst die relevanten Aspekte der Unterrichtseinheit grob zusammen, weswegen es auch Grobziel genannt wird. Die Teilziele lassen sich nun aber nicht einfach logisch aus dem Gesamtziel ableiten, da sie mehr Details enthalten sollen als das Gesamtziel selbst. Das hinreichend detaillierte Verfassen der Teilziele, oder auch Feinziele genannt, ist daher ein wesentlicher Aspekt. So soll gewährleistet werden, dass der Unterricht und auch die Überprüfung an vorher klar artikulierten Zielvorstellungen abgestimmt ist.
+</p>
+<p>
+Es bietet sich nun an, sich zunächst einmal einen Gesamtüberblick über seine Lehreinheit zu verschaffen. Dabei sollte vor allem klar werden, dass die aufgestellten Teilziele oftmals nicht zusammenhangslos in der Lehre behandelt werden können. Es ist also selten möglich, jedes [[88Lehrziel-Lernziel | Lehrziele]] parallel und für sich allein in einer Lehreinheit abzuhandeln. Es ist durchaus möglich, dass Lehrziele aufeinander aufbauen und ein Ziel erst dann erreicht werden kann, wenn ein anderes bereits erreicht wurde. Außerdem sollen die Teilziele in dazugehörige Themengebiete eingeordnet werden. Diese Aufgabe, gestaltet sich je nach Lehreinheit individuell.
+</p>		
+]]>
+		</content>
+		<section id="11">
+			<title>Zweck der Lehrzielpräzisierung</title>
+			<content type="theory" title="Theorie" id="111">
+			<![CDATA[
+<p>Damit Lernende ein Lehrziel erreichen können ist ein grundlegender, unverzichtbarer Teil der Lehre der angemessene Umgang mit dem Lehrstoff und die Lehrzielpräzisierung.
+Diese Forderung kann nur erfüllt werden, wenn es geeignete Methoden gibt, die überprüfbar gewährleisten, dass der Lehrstoff hinreichend während der Lehre und in der Lernerfolgskontrolle realisiert wird.
+</p>
+<p>
+Die Optimierung der Zielvalidität von Lehre und Lernerfolg kann unseres Erachtens nur sichergestellt werden, wenn eine lehrstofforientierte Lehre realisiert wird. Eine lehrstofforientierte Lehre zeichnet sich dadurch aus, dass der Lehrstoff, der das betreffende Lehrziel beschreibt, gleichermaßen in der Lehre und bei der Lernerfolgerfolgskontrolle realisiert wird. Insofern dies gewährleistet ist, genügt die lehrstofforientierte Lehre dem Kriterium der „parallelen Zielvalidität“ (vgl. Abb.).
+</p>
+<img src="images/lehrziele.png" alt="Parallele Zielvalidität" />
+<p>
+Unter zielvalider Lehre verstehen wir also diejenige Lehre, welche den Anforderungen der parallelen Zielvalidität genügt. Unter Lehre verstehen wir nicht nur die unmittelbare Unterweisung des Lehrenden, sondern auch jede Lernsituation, die der Lehrende den Lernenden zu Verfügung stellt (z.B. Experimente beim entdeckenden Unterricht).<br/>
+Die Lehrenden stehen hierbei vor der Herausforderung, an die Lernenden die Kenntnisse zu vermitteln, welche sie für die Lösung der Prüfungsfragen benötigen.
+</p>
+
+<div class="kasten">
+<h4>Lehrstoff</h4>
+Ein Lehrstoff bezeicnet den Gegenstand des Lehr-Lern-Prozesses und besteht grundsätzlich immer aus zwei Komponenten:
+<ol>
+	<li>der Aufgabe oder der Klasse von Aufgaben, die man lösen kann, wenn man den betreffenden Lehrstoff beherrscht;</li>
+	<li>dem Kompetenzgrad, wie gut man die Aufgabe lösen kann (die Angabe des Kompetenzgrades kann je nach Art der Aufgabe quantitativ, z.B. 90% sollen richtig sein oder qualitativ erfolgen, z.B. die und die Aspekte müssen genannt sein, jene nicht).</li>
+</ol>
+</div>
+
+<div class="kasten">
+<h4>Lehrziel</h4>
+Ein Lehrziel liegt dann vor, wenn man einem bestimmten Lehrstoff die <strong>Intention</strong> hinzufügt, diesen Lehrstoff bestimmten Lernenden zu vermitteln.
+<br/>
+Der Begriff Lehrziel bezeichnet also in der Lehrpraxis den Lehrstoff, welcher von den Lehrenden an die Lernenden vermittelt werden soll.
+</div>
+
+<h3>Zum hier verwendeten Aufgabenbegriff</h3>
+Lehrstoffe und Lehrziele haben wir bestimmt durch die Angabe von Aufgaben, die der Lernende lösen kann, wenn er das betreffende Lehrziel erreicht hat. Was meinen wir mit Aufgaben? Der hier verwendete Aufgabenbegriff unterscheidet sich vom Umgangssprachlichen. Nachfolgend verschiedene Aspekte zum Konzept der „Aufgabe“, wie es hier verwendet wird:
+<ol>
+	<li><strong>Aufgabenname:</strong> „wie die Aufgabe heißt“. <br/> Beispiel: „Schriftlich Addieren“</li>
+	<li><strong>Aufgabengegenstand:</strong> „worum es bei der Aufgabe geht“. <br/>Beispiel: Die Summe aus mehreren Zahlen durch eine Rechenvorschrift (Algorithmus) bilden“</li>
+	<li><strong>Aufgabenrepräsentation:</strong> „Darstellungsweise der Aufgabe“. <br/>Beispiel: 7+ 5=12<br/> Die Aufgabenrepräsentation beschreibt die konkrete Ausführung der Aufgabe. Es gibt bei dieser Aufgabe auch andere Repräsentationen (ohne den eben benutzten Rechenalgorithmus!): <br/>I I I I I I I	hinzugezählt	I I I I I	ergibt:	I I I I I I I I I I I I</li>
+	<li><strong>Aufgabenbeschreibungsformat:</strong> Angabe, aus welchen Komponenten die Aufgabenbeschreibung besteht (bei uns aus Aufgabenstellung – Operator – Aufgabenlösung – Kompetenzgrad)</li>
+</ol>
+
+			]]>
+			</content>
+			<content type="example" title="Beispiel_Wiener_Schnitzel" id="112">
+			<![CDATA[
+			<ol>
+	<li>Teilziel: Kenntnis der Zutaten (Wissen darüber, dass es Kalb sein muss, ansonsten wäre es ein Schnitzel nach Wiener Art.)
+<ul>
+	<li> Kalbsschnitzel á 250g, bleistiftdick</li>
+	<li>Salz&amp;Pfeffer</li>
+</ul>
+Für die Panade:
+<ul>
+	<li>Weizenmehl, griffig,</li>
+	<li>Eier, mit goldgelben Eigelb,</li>
+	<li>Semmelbrösel (Paniermehl, Weißbrotbrösel).</li>
+</ul>
+Zum Ausbacken:
+<ul>
+	<li>Schweineschmalz</li>
+</ul>
+</li>
+	<li>Teilziel: Kenntnis und Verstehen der Zubereitung
+<ul>
+Plattieren:
+<ul>
+	<li>Schnitzel zwischen beölter Cellophanfolie dünn plattieren. Dieser Vorgang ist wichtig, damit die Fasern des Fleisches nicht kaputt gehen.</li>
+	<li>So vorhanden, am Rand liegende Fettränder etwas einschneiden.</li>
+	</ul>
+</ul>
+Panieren:
+<ul>
+	<li>Vorbereitung:
+<ul>
+	<li>3 Teller für die Panierung (Panade) vorbereiten</li>
+	<li>In den ersten Teller gibt man Weizenmehl</li>
+	<li>In den zweiten Teller verquirlt man 2 Eier mit einer Gabel. Damit die Panade in der Pfanne schön souffliert (aufgeht), die Eier nur "schlampig" verschlagen. Das Eigelb soll dabei noch deutlich sichtbar sein.</li>
+	<li>In den dritten Teller gibt man reichlich gleichkörnige Semmelbrösel. Für eine besonders feine Brösel-Panade die Brösel sieben.</li>
+</ul>
+</li>
+</ul>
+Das Panieren:
+<ul>
+	<li> Schnitzel auf beiden Seiten mit Salz und wenig Pfeffer würzen</li>
+	<li>Nun sogleich im Mehl wenden. Die gesamte Fleischoberfläche soll gleichmäßig bemehlt sein, überschüssiges Mehl abklopfen.</li>
+	<li>Schnitzel durch Eiermasse ziehen, abtropfen lassen.</li>
+	<li>In den Semmelbröseln wenden, nur leicht andrücken, nicht anpressen. Überschüssige Brösel abklopfen.</li>
+	<li>Schnitzel nicht lagern, sondern sofort danach backen!</li>
+</ul>
+Ausbacken:
+<ul>
+	<li>In einer Pfanne ausreichender Größe Pflanzenöl auf max 180°C erhitzen.</li>
+	<li>Schnitzel darin beidseitig 1-2 Min goldgelb backen.</li>
+	<li>Auf Küchenkrepp abtropfen lassen.</li>
+</ul>
+Das original Wiener Schnitzel sollte immer größer als der Teller sein, auf dem er serviert wird!</li>
+<ul>
+	<li> Teilziel: Anwendung der Kenntnis über die Zubereitung
+<ul>
+Aus den vorhandenen Zutaten soll ein essfertiges Wiener Schnitzel zubereitet werden.</li>
+</ol>
+			]]>
+			</content>
+			<content type="application" title="Meine_Lerneinheit" id="113" load="subGoal.load();">
+			<![CDATA[
+			<h3>Nun sind Sie selbst an der Reihe:</h3>
+		<ol>
+			<li>Überlegen Sie sich zunächst ein mögliches Thema aus Ihrem Fachgebiet, dass in einer Lehreinheit behandelt werden könnte.<br />
+				Thema:<input type="text" id="main-topic" size="40" />
+			</li>
+			<li>Formulieren Sie dazu nun das Gesamtziel, das von den Studierenden erreicht werden soll.<br />
+				Gesamtziel:<input type="text" id="main-goal" size="60" />
+			</li>
+			<li>Konkretisieren Sie abschließend dieses Gesamtziel durch notwendige Teilziele, beachten Sie dabei schon mögliche Überprüfungsformen und Transferüberlegungen.<br />
+				<div class="sub-goals">
+					
+				</div>
+				<input type="button" id="addgoal" value="Teilziel hinzufügen">
+			</li>
+		</ol>
+			]]>
+			</content>
+		</section>
+		<section id="12">
+			<title>Lehrzielpräzisierung  mittels Tyler-Matrix</title>
+			<content type="theory" title="Theorie" id="121"><![CDATA[
+<h4>Die Tyler-Matrix als Verfahren zur Lehrzielpräzisierung</h4>
+<p>Der amerikanische Pädagoge TYLER beobachtete folgendes Problem:<br/>
+Wenn ein Lehrer gefragt wird, was er gerade im Unterricht behandelt, dann antwortet er z.B.: „Den Lehrsatz des Pythagoras“. Damit ist aber nicht festgelegt, was seine Schüler können sollen, wenn der Unterricht erfolgt ist, weil nur der Inhalt der Unterrichtseinheit genannt wird. Es fehle der Verhaltensaspekt, d.h. was die Schüler mit dem betreffenden Inhalt machen können sollen. Wichtig ist in diesem Zusammenhang die Unterscheidung, ob die Schüler den Lehrsatz des Pythagoras nur kennen sollen oder ob sie ihn beweisen oder gar anwenden können sollen.
+</p>
+<p>
+TYLER unterscheidet daher bei der Zielbeschreibung einen <b>Inhaltsaspekt</b> und einen <b>Verhaltensaspekt</b>. Der Inhaltsaspekt beschreibt den Gegenstand, um den es bei dem betreffenden Lehrziel geht, der Verhaltensaspekt, was man bezüglich des betreffenden Gegenstandes tun können soll. Die Lehrziele werden in Form einer Matrix dargestellt. Die Inhaltsaspekte werden in den Zeilen der Matrix, die Verhaltensaspekte in den Spalten eingetragen. In dieser Lehrzielmatrix kann nun festgehalten werden, welche Teilziele man erreichen will. Ebenso kann auch überprüft werden, ob diese Ziele erreicht wurden, indem man markiert, welche Teilziele die Gruppe (oder auch ein bestimmter Studenten) schon erreicht hat. Diese Darstellungsform hat den Vorteil, dass sie sehr übersichtlich ist.
+</p><p>
+Die Festlegung des Verhaltensaspektes ist relativ willkürlich und sollte jeweils auf ihre Eignung geprüft werden.
+</p><p>
+Eine gute Möglichkeit an diese Aufgabe systematischer heranzugehen, bieten sogenannte <b>Lehrzieltaxonomien</b>, zum Beispiel die <b>Bloomsche Taxonomie</b>. Diese wurde entwickelt, um den Verhaltensaspekt systematisch einzuteilen.
+Bloom und Mitarbeiter gliederten den Verhaltensaspekt in Wissen, Verständnis, Anwendung, Analyse, Synthese und Beurteilung. Die einzelnen Bestandteile bauen aufeinander auf. Um zum Beispiel etwas anwenden zu können, muss man es zunächst verstanden haben. Dieses Verständnis wiederum setzt Wissen voraus.
+</p>
+<div id="accordion">
+	<h3><a href="#">Wissen</a></h3>
+	<div>Die Fähigkeit, sich an Vorstellungen, Tatsachen usw. zu erinnern, sie aus dem Gedächtnis zu reproduzieren, sie wieder zu erkennen, und zwar in einer Situation, in der bestimmte Stichwörter, Signale oder Anhaltspunkte gegeben werden, mit dem Ziel, festzustellen, welche Kenntnisse gespeichert worden sind. 
+	<br/><b>Beispiele:</b> Der Schüler kann die Daten der letzten drei Kriege auf deutschem Boden wiedergeben. Der Student kann die drei Komponenten eines Verhaltensbezogenen Lehrziels nennen.
+</div>
+</div>
+<div id="accordion">
+	<h3><a href="#">Verständnis</a></h3>
+	<div>Die Fähigkeit, das, was kommunikativ vermittelt wird, aufzunehmen und zu verarbeiten, ohne es notwendigerweise auf andere Bereiche zu übertragen oder ohne seine Implikationen zu erkennen.
+	<br/><b>Beispiele:</b> Der Schüler kann die Ursachen des zweiten Weltkrieges erklären; einen Text aus dem Englischen ins Russische übersetzen; Beispiele für kalorienarme und kalorienreiche Kost geben
+	</div>
+	</div>
+<div id="accordion">
+	<h3><a href="#">Anwendung</a></h3>
+	<div>Die Fähigkeit, in festgelegten konkreten Situationen, Abstraktionen, Regeln, Prinzipien, Ideen und Methoden anzuwenden.
+	<br/><b>Beispiele:</b> Der Schüler kann anhand des Barometers das Wetter vorhersagen; eine Unbekannte in einer Gleichung bestimmen; eine adäquate Diät für seine persönlichen Bedürfnisse zusammenstellen
+</div>
+	</div>
+<div id="accordion">
+	<h3><a href="#">Analyse</a></h3>
+	<div>Die Fähigkeit, eine Mitteilung in ihre konstruktiven Elemente oder Teile aufzugliedern.
+<br/><b>Beispiele:</b> Der Student kann die gedankliche Gliederung eines wissenschaftlichen Aufsatzes nachzeichnen; das Leitmotiv einer Kurzgeschichte herausarbeiten; Tatsachenfeststellungen von Meinungsäußerungen unterscheiden.
+</div>
+	</div>
+<div id="accordion">
+	<h3><a href="#">Synthese</a></h3>
+	<div>Die Fähigkeit, mit Bausteinen, Teilen, Elementen usw. umzugehen und sie so zusammenzufügen oder zu kombinieren, dass ein Ganzes geformt oder eine neue Struktur gebildet wird.
+<br/><b>Beispiele:</b> Der Schüler kann einen Plan für die Einhaltung von Unterrichtsdisziplin aufstellen; einen Entwurf für die geplante Klassenfahrt ausarbeiten; ein Computerprogramm für die Errechnung von Abiturnoten entwickeln
+</div>
+	</div>
+<div id="accordion">
+	<h3><a href="#">Beurteilung</a></h3>
+	<div>Die Fähigkeit, quantitative und qualitative Urteile abzugeben über das Ausmaß, in dem Materialien und Methoden bestimmte Kriterien erfüllen. (Nach Auffassung der Verfasser der Bloomschen Lehrzieltaxonomie ist dies die höchste Stufe  kognitiver Tätigkeiten.)
+<br/><b>Beispiele:</b> Der Schüler kann die Qualität eines literarischen Werkes beurteilen; Argumente für oder gegen Wohlfahrtsprogramme verteidigen; den Begriff „Freiheit in der Demokratie“ einschätzen; entscheiden, ob physische Gewalt je gerechtfertigt ist.
+</div>
+</div>
+
+<h4>Vor- und Nachteile der Tyler-Matrix</h4>
+<p>Solch eine Inhalts- und Verhaltensmatrix eignet sich besonders gut für Defizitanalysen. Sie ist übersichtlich und dient dem Lehrenden zur Zielbestimmung, als auch Beurteilung des momentanen Zustandes des Lernenden und der Lernaufgaben.
+Je nachdem, welche Teilziele der Lernende erreicht hat, kann der Lehrende mit Hilfe seiner Matrixanalyse feststellen, welche Stoffeinheiten er womöglich wiederholen muss, damit seine Lernenden diese erfassen. Der Lehrende hat so die Möglichkeit den Lehrstoff neu zu strukturieren, damit die angestrebten Teilziele erreicht werden.
+Die Tyler-Matrix bietet einen guten Überblick, welche Teilziele die Lehreinheit anstrebt. Problematisch sind die Verhaltensaspekte (auch  Operatoren genannt). Es ist nicht immer gewährleistet, ob ein bestimmter Verhaltensaspekt, z.B. „Verstehen“, bei allen Inhalten dasselbe meint. Ist z.B. das Verstehen bei Erster Hilfe bei Ohnmacht das selbe Verstehen wie beim Lehrsatz des Pythagoras?
+</p>
+<table class="content-table">
+<tr>
+<td><b>Vorteile</b></td>
+<td><b>Nachteile</b></td>
+</tr>
+<tr>
+<td class="top">
+<ul>
+	<li>Übersichtlichkeit, d.h. inhaltliche Gliederung und qualitative Steigerung der Verhaltensaspekte</li>
+	<li>genaue  Formulierung von Lehrzielen möglich</li>
+	<li>Erreichung der Lehrziele besser verfolgbar und kontrollierbar</li>
+	<li>Zusammenhänge gut ersichtlich</li>
+	<li>gute Eignung für Defizitanalysen beim Lernenden</li>
+	<li>kann auf verschiedenen Ebenen der Bildung verwendet werden</li>
+	<li>gutes Arbeiten für den Lehrenden, da gute Strukturierung nach Erarbeitung</li>
+	<li>einfache Formulierung von Aufgaben</li>
+</ul>
+</td>
+<td class="top">
+<ul>
+	<li>sollte gut durchdacht sein</li>
+	<li>aufwendig</li>
+	<li>Lücken in der Lehrziel-Matrix müssen begründet sein</li>
+	<li>Verhaltensaspekte werden für alle Inhalte gleich gewählt, d.h. genaue Prüfung dieser ist erforderlich (siehe Kritik an der Lehrzieltaxonomie nach Bloom)</li>
+</ul>
+</td>
+</tr>
+</table>
+
+<div class="literatur" id="klappe">
+<h4>Literatur</h4>
+* Schott, F., Neeb, K.-E. & Wieberg, H. (1981) Lehrstoffanalyse und Unterrichtsplanung. Braunschweig: Westermann 
+<br/>* Klauer, K. J. (2011). Transfer des Lernens - Warum wir oft mehr lernen als gelehrt wird. Verlag: W. Kohlhammer. 
+</div>
+
+]]></content>
+		<content type="example" title="Beispiel_Wienerschnitzel" id="122">
+			<![CDATA[ 
+Gesamtziel: Zubereitung eines Wiener Schnitzels
+Teilziel: Anwendung der Kenntnis über die Zubereitung
+
+		  <table class="task-table-4">
+<tr>
+<td colspan="2" rowspan="2"></td>
+<td colspan="3"><strong>Verhaltensaspekt</strong></td>
+</tr>
+<tr>
+<td>Wissen</td>
+<td>Verstehen</td>
+<td>Anwenden</td>
+</tr>
+<tr>
+<td rowspan="3"><strong>Inhaltsaspekt</strong></td>
+<td>Kenntnis der Zutaten</td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Kenntnis und Verstehen der Zutaten</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+</tr>
+<tr>
+<td>Anwenden der Kenntnis über die Zubereitung</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+</tr>
+</table>
+
+			]]>
+			</content>
+			<content type="example" title="Beispiel_Kohlenstoff" id="123">
+			<![CDATA[
+<p>
+Der Lernbereich „Vom Kohlenstoff bis zum Kalkstein“ wird im Lehrplan Chemie für Sächsische Gymnasien (2004) in der Klassenstufe 9 mit 16 Unterrichtsstunden beschrieben. Ziel am Ende dieses Unterrichtsabschnittes ist es, dass die Schüler Berechnungen bezüglich der Stoffmenge, des Stoffumsatzes und des Volumens anhand verschiedener Reaktionen durchführen können aber auch mit Hilfe eines Atomgittermodells auf die Eigenschaften des Stoffes zu schließen. Ein weiteres Ziel dieser Lehrplaneinheit ist die Entstehung und die Umsetzung der Kohlenstoffdioxide und von Kalkstein. Es geht also um die anorganische Kohlenstoffchemie und Stöchiometrie. Diese Ziele werden stufenweise verfolgt und umgesetzt. Es bietet sich an, das Thema inhaltlich zu untergliedern und Unterthemen zu formulieren, wie sie in im Unterricht sinnvoll nacheinander abgehandelt werden können. Die Untergliederung der Verhaltensaspekte erfolgt nach der Lehrzieltaxonomie nach Bloom in Wissen, Verstehen und Anwenden, wie sie in der Beurteilung und Bewertung von Leistungen in Chemie genutzt werden.
+</p>
+<p>
+Zunächst wird in der Lehrplaneinheit das Abstraktionsvermögen der Schüler gefordert. Die Schüler sollen am Ende des ersten Lehrplanabschnitts in der Lage sein, anhand eines Modells (von Graphit und Diamant) auf die Eigenschaften der Stoffe zu schließen. Im zweiten Abschnitt der Lehrplaneinheit geht es um die Reaktionen des Kohlenstoffs bzw. der Karbonate mit den anorganischen Verbindungen Sauerstoff und Kalzium.
+</p>
+<p>
+Da es sich hierbei um das viel verteufelte CO2 handelt, ist an dieser Stelle auch die Diskursfähigkeit der Schüler gefordert. Im Anschluss daran geht es um die Umsetzung des Wissens. Die Schüler sollen mit Hilfe ihrer Vorkenntnisse über Stoffmengen, stöchiometrische Verhältnisse und molare Volumen komplexe Berechnungen durchführen. Die aufgestellte Matrix bietet somit eine übersichtliche Untergliederung des Stoffgebietes und macht dadurch eine exakte und eindeutige Formulierung der entsprechenden Lehrziele erst möglich. Indem die Inhalts- und Verhaltensaspekte relativ genau definiert sind, ist es dem Lehrer nun möglich, für jede einzelne Zelle spezielle Aufgaben zu entwickeln. Durch den Einsatz dieser Aufgaben im Unterricht kann man den Lernerfolg der Schüler kontrollieren und damit beurteilen, ob das jeweilige Teilziel erreicht worden ist oder nicht. Bei Misserfolg können Wissenslücken identifiziert und gegebenenfalls geschlossen werden, denn mittels der aufgestellten Tyler-Matrix ist durchaus gewährleistet, einen Lehr- und Lernschritt zu wiederholen und/oder zu vertiefen. Die entsprechend jedem Teilziel formulierten Aufgabenstellungen stellen eine Lernumgebung für den Schüler dar und rufen Lernerfahrungen beim diesem hervor. Diese müssen, wie bereits beschrieben, den aktuellen Fähigkeiten und Fertigkeiten des Schülers entsprechen und ihm bei deren Ausführung Befriedung bringen, sodass das erwünschte Lernen, welches vom Lehrziel erfordert wird, eintritt. Die drei Hauptkriterien der Organisation von Lernerfahrungen sollen an diesem Beispiel ebenfalls aufgezeigt werden. Die Kontinuität der vertikalen Organisation von Lernerfahrungen meint die stetige Wiederholung von Erfahrungen in der zukünftigen Zeit und spiegelt hier das erneute Auftreten der anorganischen Kohlenstoffchemie im Boudouard Gleichgewicht und die immer wiederkehrenden stöchiometrischen Berechnungen, die auch für Experimente notwendig sind, wider. Auch in anderen Fächern, im Folgenden ist es Geographie wird auf das Wissen aus dieser Lehrplaneinheit zurückgegriffen, so beruht die Untersuchungsmethode, ob es sich bei einer unbekannten Gesteinsprobe um Kalkstein handelt, auf dem Prinzip des Kalklöschens. Hierin wird ebenso das Prinzip der Folgerichtigkeit von Lernerfahrungen deutlich: Jede neue Erkenntnis baut auf der vorhergehenden auf und dringt breiter und tiefer in die Problematik ein, sodass eine Weiterentwicklung der Fähigkeiten und des Verständnisses beim Schüler gewährleistet wird.
+</p>
+
+<h3>Tyler-Matrix - Diagnose des Ist- Zustandes und der Lernaufgabe</h3>
+<p>Die Tyler-Matrix dient einerseits der Präzisierung des Lehrzieles (d.h. des Bruttolehrstoffs), anderseits zur Diagnose des Ist- Zustandes der Lernenden (des Nettolehrstoffs).
+</p>
+<p>
+Nehmen wir diese Tyler-Matrix:
+<table class="task-table-1">
+<tbody>
+<tr>
+<td></td>
+<td>Wissen</td>
+<td>Verstehen</td>
+<td>Anwenden</td>
+</tr>
+<tr>
+<td>Modifikation von Diamant u. Graphit</td>
+<td>Kennen der Unterschiede und Gemeinsamkeiten</td>
+<td>Erkennen des Strukur-Eigenschaftsmodells</td>
+<td>Vorhersagen treffen über Leitfähigkeit, Härte und mit Hilfe des Baus erklären</td>
+</tr>
+<tr>
+<td>Kohlenstoffoxide</td>
+<td>Kennen der verschiedenen Oxide; Bildung der Oxide</td>
+<td>Wirkungen auf die Umwelt  Reaktionen, Nachweisreaktion CO2, Bildung und Zersetzung von Kalkstein</td>
+<td>Vermeidungs-strategien für CO2, CO2 entwickeln, Diskussion Pro- Contra Kohleabbau</td>
+</tr>
+<tr>
+<td>Stoffumsatz</td>
+<td>Kennen der einzelnen Formeln</td>
+<td>Ermitteln der einzelnen Stoffgrößen</td>
+<td>Berechnen mehrerer Stoffgrößen an komplexen, praxisbezogenen Beispielen</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p>
+Dies Matrix kann schematisch so dargestellt werden:
+<table class="task-table-1">
+<tbody>
+<tr>
+<td></td>
+<td>Wissen</td>
+<td>Verstehen</td>
+<td>Anwenden</td>
+</tr>
+<tr>
+<td>Modifikation von Diamant u. Graphit</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+</tr>
+<tr valign="TOP">
+<td>Kohlenstoffoxide</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+</tr>
+<tr>
+<td>Stoffumsatz</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p>
+Ermittlung des Nettolehrstoffs mit Hilfe der Tylermatrix:<br/>
+<img src="images/tyler-example.png" width="600" alt="Tyler-Matrix zur Ermittlung der noch anzustrebenden Teilziele" />
+	</p>		
+			]]></content>
+			
+		</section>
+		
+		<section id="13">
+			<title>Lehrzielpräzisierung mittels Aufgabenanalyse</title>
+			<content type="theory" title="Theorie" id="131"><![CDATA[
+Bei Tyler findet eine Aufteilung in Verhaltens- und Inhaltsaspekt statt. Was die Tyler-Matrix nicht leisten kann, ist zu zeigen, ob die formulierten Lehrziele in den verwendeten Aufgaben auch adäquat umgesetzt sind. Auch ist trotz des standardisierten, verbal umschriebenen Verhaltensaspektes nicht sicher, dass die verwendeten Verben bei verschiedenen Inhalten genau dasselbe Verhalten beschreiben.
+<br/>
+Unterscheidet sich zum Beispiel das Verstehen des Lehrsatzes des Pythagoras vom Verstehen der Ersten Hilfe bei Ohnmacht?
+
+<h4>Aufbereitung des Inhalts- und Verhaltensaspekt</h4>
+Die Lehrkraft bereitet zuerst den Inhaltsaspekt und entsprechend im Folgenden den Lehrstoffs auf, dafür sammelt beziehungsweise notiert sie sich die als wichtig erscheinenden inhaltlichen Sachverhalte eines Themas als Schlagwörter. Danach werden zu den Inhalten schlagwortartig passende Verhaltensaspekte und dementsprechend, die Handlungen, die vom Schüler am Inhalt ausgeführt werden sollen, gesammelt. Handlungen sind zum Beispiel: Nennen, Beschreiben, Analysieren und Beurteilen. Diese Inhalts- und Verhaltensaspekte werden nun in einer Liste aufgestellt und wenn möglich schon in der Reihenfolge dargestellt, wie sie im Unterricht behandelt werden sollen. Der Lehrende kann sich damit einen Überblick über die Reichweite des Lehrthemas verschaffen.
+
+<h4>Darstellungen des Basis-Lehrstoffs in Aufgabenklassen</h4>
+Wie bereits oben festgestellt, besteht der Lehrstoff immer aus einem Inhaltsaspekt und einem Verhaltensaspekt.
+<br/>
+Eine Aufgabe oder Klasse von Aufgaben besteht immer aus einem Inhaltsaspekt, der sich auf den Anfangszustand (Aufgabenstellung) und Endzustand (Aufgabenlösung) bezieht, sowie dem Verhaltensaspekt (auch Operator genannt), der den Anfangszustand in den Endzustand überführt. Der Anfangszustand eines Inhaltsaspekts ist also das, was durch den Operator verändert wird und der Endzustand der Inhaltskomponente, das Resultat aus diesem Operator. Gliedert man den Lehrstoff in diese Einzelkomponenten auf, so erhält man die Darstellung des Lehrstoffs in Form eines bestimmten Aufgabenbeschreibungsformats. Mit Hilfe dieses Aufgabenbeschreibungsformats lässt sich jedes Lehrziel bzw. jeder Lehrstoff beliebig genau beschreiben. Beschrieben werden Aufgabenklassen. Eine Aufgabenklasse kann manchmal aus nur einer Aufgabe bestehen.
+Das Aufgabenbeschreibungsformat für eine Aufgabenklasse sieht folgendermaßen aus:<br/>
+
+<img src="images/transition.png" width="600" alt="Zustandsübergänge" />
+<div id="klappe">
+<h4>Legende:</h4>
+H:	von x ist die Hauptstadt y;<br/>
+h:	Bundesland Hessen<br/>
+?:	Leerstelle, die es aufzufüllen gilt;<br/>
+f:	Frankfurt am Main;<br/>
+w:	Wiesbaden;<br/>
+Z1.1: Operator 1. Ordnung, der die Zustandsänderung von Aufgabenstellung zu Aufgabenlösung bewirkt;<br/>
+Z1.2: Operator 1. Ordnung, der die Zustandsänderung von Aufgabenstellung zu Aufgabenlösung bewirkt;<br/>
+Z2.1: Operator 2. Ordnung, der die Zustandsänderung von Operation 1 zu Operation 2 bewirkt.<br/>
+</div>
+
+<h4>Kompetenzgradfestlegung und Lehrzielformulierung</h4>
+Der Basis-Lehrstoff, welcher in die Aufgabenklasse umformuliert ist, bildet die Ausgangslage für die Lehrzielbestimmung, welche den nächsten Schritt im Verfahren darstellt.
+Ein Lehrziel beschreibt die Intention, einen bestimmten Lehrstoff bestimmten Schülern zu vermitteln. Anders formuliert besteht ein Lehrziel aus dem Lehrstoff, der vermittelt werden soll (= Basis-Lehrstoff) und einer Angabe, wie gut die Schüler diesen Stoff danach beherrschen sollen. Diese Angabe wird der Kompetenzgrad genannt. Zur Ermittlung eines Lehrziels, müssen folgende vier Bedingungen erfüllt sein:
+<ol>
+	<li>Festlegung, welcher Inhaltaspekt vermittelt werden soll</li>
+	<li>Festlegung, welcher Operator dem Inhaltsaspekt zugeordnet werden soll</li>
+	<li>Überprüfung des Operators, ob dieser vom Lernenden sinnvoll am vorgesehenen Inhalt ausgeführt werden kann</li>
+	<li>Festlegung, wie gut der Lernende den Stoff beherrschen soll (Kompetenzgrad)</li>
+</ol>
+Das Lehrziel ist so zu formulieren, dass sich davon geeignete Aufgaben zur Aneignung und Überprüfung ableiten lassen.
+Die Bestimmung des Kompetenzgrades bereitet einige Schwierigkeiten, da es nicht immer allgemeine Kriterien zur Festlegung der Kompetenz gibt.
+
+Lehrziele kann man auch präskriptive Kompetenzen nennen, d.h. Kompetenzen, die bestimmten Adressaten vermittelt werden sollen. In diesem Sinne definieren wir hier Kompetenz so:
+
+
+<div class="kasten"><h4>Eine Kompetenz:</h4>
+<ol>
+	<li>besteht aus einer bestimmten Menge von Aufgaben, die man ausführen kann, wenn man die Kompetenz besitzt</li>
+	<li>besteht aus einem oder mehreren Kompetenzgraden, die angeben, wie gut man diese Aufgaben jeweils ausführen kann</li>
+	<li>beschreibt eine Fähigkeit mit einer gewissen Nachhaltigkeit, d. h. sie sollte, wenn sie Eigenschaft einer Person ist, längere Zeiträume überdauern</li>
+	<li>ist eine Präskription mit normativem Charakter.</li>
+</ol>
+</div>
+
+<h4>Die Konstruktion von Aufgaben</h4>
+Der Lehrstoff ist nun in Form einer Aufgabenklasse umformuliert worden und mit einem geeigneten Kompetenzgrad versehen worden. Eine Aufgabenklasse lässt sich nun in zwei Hauptfunktionen realisieren. Zum einen als Aneignungsaufgabe, welche dem Aneignen des vermittlungsrelevanten Lehrstoffs dient und zum anderen als Überprüfungsaufgabe, welche zum Prüfen des Lehrstoffs auf Beherrschen bzw. Nicht- Beherrschen des Lehrstoffs dient; also zur Lehrerfolgskontrolle.
+
+Zur Konstruktion einer Aufgabe müssen vier Kriterien erfüllt sein:
+
+<div id="accordion">
+<h3><a href="#">Inhaltsaspekt:</a></h3>
+<div>Der Inhaltsaspekt des Lehrziels bezieht sich auf einen vermittlungsrelevanten Lehrstoff der Unterrichtseinheit.</div>
+</div>
+<div id="accordion">
+<h3><a href="#">Verhaltensaspekt (Operator):</a></h3>   
+<div>Der Operator soll einen vermittlungsrelevanten Verhaltensaspekt des Lehrstoff beschreiben.</div>
+</div>
+<div id="accordion">
+<h3><a href="#">Kompetenzgrad:</a></h3> 
+<div>Dies Angabe des Kompetenzgrads soll die Bedingungen festlegen, die erfüllt sein müssen, damit die betreffende Aufgabe als richtig gelöst gilt.</div>
+</div>
+<div id="accordion">
+<h3><a href="#">Realisationsform:</a></h3>
+<div>diese entscheiden darüber, in welcher Form die Aufgabe
+bearbeitet werden soll (Hausaufgabe, Übungsaufgabe, usw.) und in welcher Form die Lösung
+erscheinen soll (schriftlich, mündlich, etc.)</div>
+</div>
+			
+<h4>Semantische, fachliche, psychologische und empirische Aufgabenanalyse</h4>
+<p>
+Ein grundlegendes Problem für Lehrkräfte ist die Präzisierung der Lehrziele. Zur Analyse, Konstruktion und Evaluation von Lern- und Informationssystemen, insbesondere zur Aufbereitung des Lehrstoffes kann man Aufgabenanalysen einsetzen.
+</p>
+<div class="kasten"><h4>Semantische Aufgabenanalyse</h4>
+Was der Gegenstand einer Aufgabe ist, beschreibt eine <strong>semantische Aufgabenanalyse</strong>, die je nach Verwendungszweck und Kommunikationspartner mehr oder weniger genau sein kann, z. B. „ein Wiener Schnitzel bereiten“ [wobei man voraussetzt, dass der Kommunikationspartner weiß, was damit gemeint ist (das Fleisch sollte z. B. vom Kalb sein)]. Oft wird dazu die Fachsprache der betreffenden Fachwissenschaft verwendet, z. B.: „Wiener Schnitzel“ in der Gastronomie oder „das Maximum einer bestimmten Funktion bestimmen“ in der Mathematik.
+</div>
+<div class="kasten"><h4>Fachliche Aufgabenanalyse</h4>
+Die<strong> fachliche Aufgabenanalyse</strong> ergibt, wie man aufgrund von Überlegung die Aufgabe von der Sache her lösen sollte, etwa eine Textaufgabe in Mathematik.
+</div>
+<div class="kasten"><h4>Empirische Aufgabenanalyse</h4>
+Die <strong>empirische Aufgabenanalyse</strong> erkundet, wie bestimmte Personen diese Aufgabe tatsächlich lösen.
+</div>
+<div class="kasten"><h4>Psychologische Aufgabenanalyse</h4>
+Die <strong>psychologische Aufgabenanalyse</strong> ergänzt die fachliche Aufgabenanalyse dahingehend, dass sie zusätzlich untersucht, wie die Aufgabe aufgrund bestimmter psychologischer Annahmen gelöst wird (z.B. mit bestimmten Merkhilfen). Die Prüfung, ob diese Aufgabe tatsächlich im Sinne der psychologischen Aufgabenanalyse gelöst wird, bleibt wiederum einer empirischen Aufgabenanalyse vorbehalten.
+</div>
+
+<h4>Einbettung der Teilziele ins Themengebiet</h4>
+Es bietet sich nun an, sich noch einmal einen Gesamtüberblick über seine Unterrichtseinheit zu verschaffen. Dabei sollte vor allem klar werden, dass die aufgestellten Teilziele oftmals nicht zusammenhangslos im Unterricht behandelt werden können. Es ist also selten möglich jedes Lehrziel parallel und für sich allein in einer Unterrichtseinheit abzuhandeln. Es ist möglich, dass Lehrziele aufeinander aufbauen und ein Ziel erst dann erreicht werden kann, wenn ein anderes bereits erreicht wurde. Um eventuelle Gemeinsamkeiten und Unterschiede deutlich zu machen sollen die aufgestellten Lehrziele nun zunächst nach dem ersten Eindruck, den Aufgabentypen (z.B. bezüglich bestimmter Operatorentypen oder Inhaltsaspekte) und der Reihenfolge ihrer Behandlung (welches Lehrziel wird in der Lehre als erstes, welches als zweites realisiert usw.) geordnet und deren Zusammenhang grafisch dargestellt werden. Außerdem sollen die Teilziele in dazugehörige Themengebiete eingeordnet werden.
+Diese Aufgabe gestaltet sich je nach Lehreinheit individuell.
+
+<div class="literatur" id="klappe">
+<h4>Literatur</h4>
+* Schott, F., Neeb, K.-E. & Wieberg, H. (1981) Lehrstoffanalyse und Unterrichtsplanung. Braunschweig: Westermann 
+<br/>* Schott, F. & Kretschmer, I. (1977). Konstruktion lerhzielvalider Testaufgaben aufgrund einer normierten Lerhstoffanalyse. In K. J. Klauer, R. Fricke, M. Herbig, H. Rupprecht und F. Schott (Hrsg.), Lehrzielorientierte Leistungsmessung (S. 26-64). Düsseldorf: Schwann. 
+<br/>* Schott, F. (1975). Lehrstoffanalyse - Ein Beschreibungssystem zur Analyse von Inhalt und Verhalten bei Lehrzielen. Düsseldorf: Schwann. 
+</div>
+			]]>
+		</content>
+		<content type="example" title="Beispiel_Wiener_Schnitzel" id="132">
+			<![CDATA[
+			<table class="task-table-1">
+	<TR>
+		<TD><B>Teilziel</B></TD>
+		<TD><B>Aufgabenstellung</B></TD>
+		<TD><B>Operator</B></TD>
+		<TD><B>Aufgabenlösung</B></TD>
+		<TD><B>Kompetenzgrad</B></TD>
+	</TR>
+	<TR>
+		<TD><B>1.Kenntnis der Zutaten </B></TD>
+		<TD>Benennen Sie die Zutaten für ein Wiener Schnitzel!“</TD>
+		<TD>wissen</TD>
+		<TD>Nennung von: Kalbsschnitzel, Mehl, Eier, Semmelbrösel, Öl, Salz, Pfeffer</TD>
+		<TD>Kenntnis aller Zutaten</TD>
+	</TR>
+	<TR>
+		<TD><b>2. Kenntnis und Verstehen der Zubereitung </B></TD>
+		<TD>Erläutern Sie Vorgehen bei der Zubereitung!</TD>
+		<TD>wissen, verstehen</TD>
+		<TD>Erläuterung von: Plattieren, Panieren, Ausbacken</TD>
+		<TD>Korrektes Erläutern aller relevanten Schritte in richtiger Reihenfolge</TD>
+	</tr>
+	<tr>
+		<TD><B>3.Anwendung der Kenntnis über die Zubereitung</B></TD>
+		<TD>Bereiten Sie ein Wiener Schnitzel zu!“</TD>
+		<TD>anwenden</TD>
+		<TD>Durchführung von: Plattieren, Panieren, Ausbacken</TD>
+		<TD>Korrektes Durchführen aller relevanten Schritte in richtiger Reihenfolge</TD>
+	</tr>
+</table>
+
+			
+			]]></content>
+			<content type="application" title="Meine_Lerneinheit" id="133">
+			<![CDATA[
+			<div class="task">Präzisieren Sie Ihre Teilziele mit Hilfe des GovI-Programms, indem Sie die Tabelle vervollständigen.</div>
+			 <div id="goviBox"></div>
+			]]></content>
+		</section>
+		<section id="14">
+		  <title>Vom Lehrziel zum Nettolehrstoff</title>
+		  <content type="theory" title="Theorie" id="141">
+		  <![CDATA[
+		  
+
+Bei der Planung von Unterrichtseinheiten ist es wichtig zu beachten, welche Aspekte des Lehrstoff bereits bekannt sind und welche noch in besonderem Maße vermittelt werden müssen. Hierzu sollen zunächst einige Begriffe geklärt werden:
+<br/>
+<div class="kasten">
+<b>Vorwissen:</b> was die Studenten bezüglich des Lehrziels bereits wissen und können.
+</div>
+<div class="kasten">
+<b>Nettolehrstoff:</b> was die Studenten zur Lösung der späteren Aufgaben, also um die gesetzten Teilziele zu erreichen, erst lernen müssen.
+</div>
+
+Dies soll der Schwerpunkt der Unterrichtseinheit sein. Natürlich können auch Teile behandelt werden, die zum Vorwissen zählen, diese aber eher mit wiederholendem Charakter. Der Bruttolehrstoff schließlich ergibt sich aus Vorwissen plus Nettolehrstoff. Oder anders ausgedrückt:<br/>
+<br/>
+<b>BRUTTOLEHRSTOFF - VORWISSEN = NETTOLEHRSTOFF</b><br/>
+<br/>
+In der schematischen Darstellung einer Tyler-Matrix, bei der die Teilziele in den Zeilen und die Verhaltensaspekte in den Spalten eingetragen sind, könnte das folgender Maßen aussehen:<br/>
+<img src="images/tyler-example.png" width="600" alt="Beispiel einer Tyler-Matrix" />
+
+<h3>Ein Beispiel: schriftliche Division in der Schule</h3>
+Es wird im Allgemeinen davon ausgegangen, dass die Schüler schon schriftlich addieren, subtrahieren und multiplizieren können.
+Von allen notwendigen Teilleistungen zum schriftlichen Dividieren ist eigentlich lediglich der Algorithmus, wie man dies durchführt, neu. Das ist der Nettolernstoff. Beim Bruttolernstoff ist auch z.B. das Multiplizieren und Subtrahieren bei der Probe, wie oft eine Zahl in eine andere geht, notwendig.
+<br/>
+Um die Ermittlung des Nettolehrstoffes zu realisieren, sollte man zunächst den zum Erreichen eines Teilziels notwendigen Bruttolehrstoff beschreiben. (Dies ist im Rahmen der letzten Schritte bereits erfolgt.) Aus diesem kann dann zwischen Vorwissen und Nettolehrstoff unterschieden werden. 
+
+
+]]>
+		  </content>
+		<content type="example" title="Beispiel_Wiener_Schnitzel" id="142">
+		<![CDATA[
+		  <table class="task-table-1">
+	<TR>
+		<TD><B>Teilziel</B></TD>
+		<TD><B>Vorwissen</B></TD>
+		<TD><B>Nettolernstoff</B></TD>
+	</TR>
+	<TR>
+		<TD><B>1. Kenntnis der Zutaten </B></TD>
+		<TD>Lernende wissen, dass man Fleisch, Eier, Mehl, Semmelbrösel, Öl, Salz und Pfeffer braucht</TD>
+		<TD>Kalbsfleisch</TD>
+	</TR>
+	<TR>
+		<TD><B>2. Kenntnis und Verstehen der Zubereitung </B></TD>
+		<TD>Lernende kennen Panieren und Ausbacken</TD>
+		<TD>Vermittlung des Wissens über Plattieren, Vermittlung der Reihenfolge der Kochschritte</TD>
+	</TR>
+	<TR>
+		<TD><B>3. Anwendung der Kenntnis über die Zubereitung</B></TD>
+		<TD>Lernende können Panieren und Ausbacken durchführen</TD>
+		<TD>Vermittlung der Anwendung des Plattierens</TD>
+	</TR>
+</table>
+		  ]]>
+		  </content>
+		<content type="application" title="Meine_Lerneinheit" id="143">
+		<![CDATA[
+		<div class="task">Ermitteln Sie den für Ihre Lerneinheit relevanten Nettolernstoff, indem Sie das von Ihnen vorrausgesetzte Vorwissen der Lernenden berücksichtigen.</div>
+		<div id="goviBox"></div>
+		]]>
+		</content>
+			</section>
+			<!--
+		<section id="151">
+			<title>Zusammenfassung</title>
+			<content type="theory" title="Theorie" id="151">
+			<![CDATA[
+			Eine zentrale Frage der Lehrplanung ist: Wie können Lehrende gewährleisten, dass die Lernenden eine gute Chance haben, während der Lehre genau das zu lernen, was sie nach der Lehre können sollen? Dieses Problem bezeichnet man auch als „Problem der parallelen Zielvalidität“, welche dann erreicht ist wenn das Lehrziel mit den Aneignungs- und Überprüfungsaufgaben übereinstimmt.
+[Wird noch ergänzt.]
+				]]> 
+		</content>
+	</section>-->
+			
+	</module>
+	<module id="2">
+		<title>Gestaltung der Lehre</title>
+		<content type="theory" id="210" title="Theorie">
+			<![CDATA[
+Im folgenden Modul geht es um die konkrete Gestaltung einer kompetenzorientierten Lehre, der output-orientiert sein sollte, das heißt, bei dem im Vordergrund steht, was die Lernenden in Folge der Lehre können sollen.
+
+Die Analyse des Gestaltungsraumes beschäftigt sich mit der Frage, was im Hinblick auf die vier wesentlichen Komponenten der Lehre (Lehrender, Lernender, Stoff, Randbedingungen) bei der Gestaltung der konkreten Lehre beachtet werden muss.
+
+Danach soll der Lehrende befähigt werden, Lernaufgaben zu konstruieren, mit deren Hilfe der Lernstoff im Unterricht vermittelt werden kann. Ein wichtiger Aspekt ist zudem die Motivation, die von verschiedenen Faktoren abhängig ist und deren Förderung als essentiell für eine erfolgreiche Lehre angesehen werden kann.
+
+In einem weiteren Schritt werden verschiedene Lehrmethoden mit ihren Anwendungsgebieten vorgestellt. Dabei können verschiedene Techniken und Medien genutzt werden.
+
+Zuletzt wird die Relevanz des selbstständigen Lernens hervorgehoben und verschiedene Möglichkeiten der Förderung dargestellt.
+
+Die in diesem Modul vorgestelten Themen fußen den Theorien von UCIT und dem "Dresdner Ei", welche wir dem Anwender von OWL im folgenden Abschnitt näher bringen wollen:
+
+<div class="kasten">
+<h3>UCIT und „ Dresdner Ei“</h3>
+Das „Dresdner Ei“ – Eine Kombination von Aspekten des Instruktionsdesigns und der Theorie der Unterrichtsgestaltung: UCIT: (<strong>U</strong>niversal <strong>C</strong>onstructive <strong>I</strong>nstructional <strong>T</strong>heory).<br/>
+UCIT ist eine Instruktionstheorie und stellt einen Ansatz dar, den gesamten Instruktionsprozess hinsichtlich Planung und Durchführung sowie Evaluation zu strukturieren. Dabei steht der Lernende im Mittelpunkt.
+<h3>Ein theoretischer Rahmen für den geplanten Wissenstransfer: UCIT</h3>
+Aus folgenden Gründen behandeln wir hier die Instruktionstheorie UCIT. Sie haben dabei die Möglichkeit, folgendes zu lernen:
+<ul>
+	<li> Den Zweck einer Theorie der geplanten Wissensvermittlung erläutern können.</li>
+	<li>Die verschiedenen Ebenen der geplanten Wissensvermittlung mit einem eigenen Beispiel erläutern können.</li>
+	<li>Die Nützlichkeit der aufgestellten Forderungen an eine Theorie der geplanten Wissensvermittlung erläutern können.</li>
+	<li>Die analytischen und synthetischen Konstruktionselemente von UCIT mit einem eigenen Beispiel erläutern können.</li>
+</ul>
+Um die Grundlagen der Wissensvermittlung zu verstehen, ist es nützlich, sich im Einzelnen mit den Möglichkeiten und Zwecken einer Theorie des geplanten Wissenstransfers zu beschäftigen. Daher beginnt dieser Abschnitt mit der Gründung eines Fundamentes für eine Theorie der geplanten Wissensvermittlung, die wir auch Instruktionstheorie nennen. Dabei wird gefragt, wozu eine Instruktionstheorie nützlich sein kann, welche Ebenen der Analyse des Wissenstransfers es gibt und welche Forderungen man an eine Instruktionstheorie stellen sollte.<br/>
+Die Begriffe „geplanter Wissenstransfer“ bzw. „Instruktion“ beziehen sich auf jede Form geplanter Wissensvermittlung, auf jede Bereitstellung von Lernmöglichkeiten, diese Begriffe umfassen also: Unterricht, Training, Fortbildung, Persönlichkeitsförderung, Therapie, Erziehung, Lehre, Unterweisung, Weiterbildung, Personalentwicklung usw.
+<br/>
+Gründung eines Fundamentes für eine Theorie des geplanten Wissenstransfers.
+
+<h3>Wozu eine Theorie des geplanten Wissenstransfers?</h3>
+Nützliche Zwecke einer Instruktionstheorie als Theorie vom geplanten Transfer von Wissen:
+<strong>aus einer konzeptuellen Sicht:</strong>
+<ul>
+	<li> <strong>begrifflich strukturieren:</strong> das Feld der Wissensvermittlung, des Wissenstransfers bzw. der Instruktion durch einen Begriffsrahmen strukturieren;</li>
+	<li><strong>konzeptuell prüfen:</strong> Möglichkeiten und Grenzen von Instruktionstechniken bzw. von Modellen des Instruktions- bzw. Wissensdesigns bestimmen – soweit dies kein empirisches sondern ein konzeptuelles bzw. theoretisches  Problem ist;</li>
+</ul>
+<strong>aus der Sicht der empirischen Forschung:</strong>
+<ul>
+	<li> den Problemraum von Instruktion beschreiben;</li>
+	<li>relevante Forschungsfragen formulieren;</li>
+</ul>
+<strong> aus der Sicht der Praxis:</strong>
+<ul>
+	<li> einen konzeptuellen Rahmen für praktische Interventionen bei der Gestaltung von Lern- und Informationsumgebungen bereitstellen.</li>
+</ul>
+<h3>Ebenen der Analyse des geplanten Wissenstransfers</h3>
+Bei der Analyse von Wissenstransfer bzw. von Instruktion lassen sich drei Ebenen unterscheiden (die Darstellung dieser drei Ebenen ist eine Weiterentwicklung der Darstellung in: SCHOTT, KEMTER &amp; SEIDL, 1995; SCHOTT &amp; DRISCOLL, 1997; SCHOTT, GRZONZIEL &amp; HILLEBRANDT, 2001):
+<strong> Ebenen der Analyse des Wissenstransfers (bzw. der Lehre):</strong>
+<div id="accordion">
+	<h3><a href="#">1.Ebene: konkrete Ereignisse des Wissenstransfers</a></h3>
+<div>Dies bezieht sich auf beobachtbare, vorzufindende Ereignisse während eines Wissenstransfers. z. B. fragt ein Ausbilder die Lehrlinge nach der Begründung einer bestimmten Unfallschutzmaßnahme.</div>
+</div>
+<div id="accordion">
+<h3><a href="#">2.Ebene: Methoden des Wissenstransfers</a></h3>
+<div>Sieht man bei den vorzufindenden Ereignissen eines Wissenstransfers von den situationsbedingten Besonderheiten ab und sucht die zugrunde liegenden Regeln und Strategien, dann gelangt man durch Abstraktion und/oder Konstruktion zur zweiten Ebene der Analyse. In unserem Beispiel geht der Ausbilder im Sinne eines fragend-entwickelnden Lehrer-Schüler-Gesprächs vor. Manchmal sind diese Vorgehensweisen sorgfältig ausgearbeitet. Sie stellen dann das Ergebnis von Methoden der Instruktionsplanung bzw. des Wissenstransfers dar und realisieren bestimmte Lehr- oder Informationsmethoden. Auch Methoden des Informierens oder des „Wissensdesigns“ gehören zu dieser zweiten Ebene.</div>
+</div>
+<div id="accordion">
+<h3><a href="#">3.Ebene: Grundlagen der Methoden des Wissenstransfers</a></h3>
+<div>Sieht man bei den vorzufindenden Methoden des Wissenstransfers, also bei den vorzufindenden Regeln und Strategien der Instruktion und der Information von ihren Unterschieden ab, und sucht ihre Grundlagen, dann gelangt man durch Abstraktion und/oder Konstruktion zur dritten Ebene der Analyse. Diese dritte Ebene betrifft die theoretischen Konzepte, die den verschiedenen Methoden und Modellen der Gestaltung von Instruktion zugrunde gelegt werden können bzw. sollen. Eine solche Theorie enthält Prinzipien, die für alle solche Methoden und Modelle gelten sollen und wird hier „Instruktionstheorie“ genannt. Eine Instruktionstheorie dient so gesehen als Theorie der Technik zur Bereitstellung von Lern- und Instruktionsmöglichkeiten, kurz als Theorie der Instruktionstechnologie – es ist eine präskriptive Theorie. Dabei bezieht sich der Begriff Instruktionstechnologie auf alle Vorkehrungen für diese Bereitstellung - nicht nur auf Geräte und Programme zu deren Betrieb. Die leider immer wieder anzutreffende Verkürzung des Begriffs Instruktionstechnologie auf elektronische Hardware samt dazugehöriger Software, wie sie immer wieder auf einschlägigen Messen, in den Massenmedien und leider auch in manchen wissenschaftlichen Fachdiskussionen und -publikationen zu finden ist, schafft eine unnötig einseitige Betrachtung und daher oft auch unnötige Aversionen gegen die Technik. Diese Betrachtungsweise ist abzulehnen, da – wie schon ausgeführt und später weiter erläutert – letztlich doch über die unmittelbare Technik der „Neuen Medien“ hinaus jeweils die gesamte Lernumgebung ganzheitlich betrachtet werden muss, wenn Instruktion nachhaltig erfolgreich sein soll. Neben und mit der Instruktionstheorie, als einen Ansatz der Pädagogischen Psychologie, sollten natürlich andere Wissenschaftszweige ihren Beitrag zur Gestaltung von Instruktion leisten, wie z. B. Erziehungswissenschaft, Philosophie, Soziologie und die jeweiligen Fachwissenschaften, welche die Inhalte der Wissensvermittlung liefern.</div>
+</div>
+
+Die hier vorgenommenen Abstraktionen beziehen sich auf die Art der Betrachtung von Wissenstransfer. Die einzelnen Regeln und Methoden auf der zweiten Ebene und die Grundlagen auf der dritten Ebene können durch bloße Abstraktion nicht gewonnen, sondern müssen eigens entwickelt – also konstruiert – werden.
+<h3>Das Dresdner Ei</h3>
+Das Dresden Ei ist eine Veranschaulichung der weiterentwickelten Form von UCIT.
+Elemente von UCIT werden mit Aspekten des 	Instruktionsdesigns (d.h. der Gestaltung der Lehre) verbunden.
+<br/>
+Die Planung und Konstruktion beim Instruktionsdesign geht von einer Bedarfsanalyse aus, formuliert ein Gesamtziel, prüft die Möglichkeiten der Lehrgestaltung über die Komponenten Netto-Lernstoff, mögliche Lernumgebung(en), Lernender und spezifische Randbedingungen bestimmt werden und realisiert ein konkretes Vorhaben der Lehrstoffvermittlung (Instruktion) in Form einer Version einer spezifischen Gestaltungslösung (der betreffenden Lehrplanung), gebildet durch situative, rekonstruierte Lernaufgaben und eine situative, rekonstruierte Lernumgebung. Die Evaluation geht annähernd den umgekehrten Weg. Sie fragt, ob die betreffende Lehrplanung den Vorgaben entspricht.
+
+<img src="images/dd_egg1.png" alt="Möglichkeiten der Lehrgestaltung" width="400"/>
+<img src="images/dd_egg2.png" alt="Möglichkeiten der Lehrgestaltung" width="400"/>
+<img src="images/dd_egg3.png" alt="Möglichkeiten der Lehrgestaltung" width="400"/>
+<img src="images/dd_egg4.png" alt="Das Dresdner Ei" width="400"/>
+
+
+Die Aufgaben und Umgebungen sind nun den Lernenden angepasst (rekonstruiert und situativ). „Instruktionsdesign“, „Bedarfsanalyse“, „Allgemeine Ziele“ & „Analytischer Gestaltungsraum“ realisieren ein konkretes Instruktionsvorhaben in Form einer spezifischen Gestaltungslösung. 
+
+</div>			
+			]]>
+		</content>
+		<section id="21">
+			<title>Analyse der Lehre</title>
+			<content type="theory" id="211" title="Theorie">
+			<![CDATA[
+			In diesem Schritt geht es um die Möglichkeiten und Grenzen, die man bei der Unterrichtsgestaltung hat. Dabei werden die Komponenten dargestellt, die diesen Gestaltungsraum ausmachen.<br />
+			Bei der Frage, mit welcher Art der Lehre man einen bestimmten Stoff bestimmten Lernenden beibringen kann, ist Folgendes zu beachten:<br />
+			Wenn man Lehrstoff vermitteln will, muss man zunächst klären (analysieren), mit welchen Möglichkeiten und Grenzen man es dabei zu tun hat. Diese ergeben sich aus den Komponenten, die an der Lehrstoffvermittlung beteiligt sind und zusammen den Gestaltungsraum ausmachen. Den Ausgangspunkt bildet das Didaktische Dreieck, welches aus dem zu vermittelnden Lehrstoff (was wird unterrichtet?), dem  Lernenden (wer wird unterrichtet?) und dem Lehrenden bzw. der Lehrumgebung (wie wird unterrichtet?) besteht. <br/>
+
+			<img src="images/didaktischesdreieck.png" alt="Das Didaktische Dreieck" width="200"/>
+<br/>			
+			Der Stoff muss für das jeweilige Lehrziel und die jeweiligen Lernenden, in Abhängigkeit von deren Vorwissen und unter Berücksichtigung der Lernumgebung und den sogenannten Randbedingungen, aufbereitet werden.<br/>
+			Die Lernumgebung schließt alles ein, was man für die Lehrstoffvermittlung planbar einsetzen kann, z.B. Lehrmaterialien, Medien, Räume, Zeit etc. Zu beachten ist, dass hier zur Lernumgebung auch der Lehrende selbst sowie die Mitlernenden gezählt werden, da diese einen wesentlichen Beitrag zum Gelingen des Unterrichts leisten.<br/>
+			Die Randbedingungen sind eine weitere Komponente die man, falls sie für die Lehrplanung von Bedeutung sind, berücksichtigen muss, deren Aspekte man aber nicht beeinflussen kann, z.B. um welche Uhrzeit die Lehre stattfindet.<br/>
+			
+			Im Folgenden wird nun näher auf die einzelnen Komponenten des didaktischen Dreiecks eingegangen.
+
+			<h3>Gestaltung der Lernumgebung</h3>
+			Überlegen, welche Räume zur Verfügung stehen (z.B. Hörsaal vs. Seminarraum), welche Möglichkeiten des Medieneinsatzes man dort hat (z.B. Beamer oder nur Overheadprojektor), welche Materialien zur Verfügung stehen (z.B. Lehrbücher, Folien, Skripte), welche Zeit man zur Verfügung hat (z.B. Stunden pro Woche, Minuten pro Veranstaltung), welche Mitlernenden es gibt (ist Gruppenarbeit möglich und wie viele Personen pro Gruppe sollen es sein) und wie ich meine Rolle als Lehrperson sehe (z.B. Wissen darbieten vs. die Lernenden selbst konstruieren lassen).
+
+			<h3>Berücksichtigung der Randbedingungen</h3>
+			Überlegen, ob es besondere Umstände gibt, die sich auf die Lehre auswirken könnten, z.B. erste Stunde des Tages zu der alle noch müde sind.
+
+			<h3>Bedeutung der Lernenden</h3>
+			Überlegen, ob das Vorwissen der Lernenden homogen ist und wie man es berücksichtigen kann, wie das Interesse der Lernenden an dem Thema einzuschätzen ist und wie man es evtl. erhöhen könnte etc.
+
+			<h3>Aufbereitung des Stoffes</h3>
+			Bei der Aufbereitung des Lehrstoffes muss der Planer der Lehrstoffvermittlung den betreffenden Stoff erst aus seinen Quellen herausfiltern (dekontextualisieren) und entsprechend dem Vermittlungszweck in seinen neuen Kontext der beabsichtigten Unterweisung wieder eingliedern (rekontextualisieren). Bei der Wissensaneignung ziehen sich die Lernenden den für sie neuen Stoff wiederum aus dem Vermittlungsarrangement heraus (dekontextualisieren ihn) und integrieren ihn in ihr Vorwissen (rekontextualisieren ihn). → doppelte Folge von Dekontextualisierung und Rekontextualisierung.
+			<br/>
+			<img src="images/rekontextualisisieren.png" alt="Dekontextualisierung und Rekontextualisierung" width="400"/><br/>
+			]]>
+			</content>
+		</section>
+		<section id="22">
+			<title>Planung der Lehre: Lernaufgaben</title>
+			<content type="theory" id="221" title="Theorie"><![CDATA[
+		Im Folgenden soll der Lehrende befähigt werden, so genannte Lernaufgaben zu konstruieren, mit denen er seine Lehre gestalten kann.
+<br/>
+<b>Lernaufgaben</b> sind Aufgaben, mittels derer die Lehrziele in der Lehre vermittelt werden sollen. Sie verhelfen also zum Erwerb des Nettolernstoffes und damit des Lehrzieles. Die Lernaufgabe ist also das, womit sich die Lernenden zum Erwerb der betreffenden Lehrziele beschäftigen sollen. Lernaufgaben können durch verschiedene Lehrmethoden vermittelt werden. Deshalb werden im Folgenden Lernaufgaben und Lehrmethoden getrennt behandelt.
+<br/>
+Erfolgreiches Lernen setzt voraus, dass die Lernenden sich aktiv und nicht nur rezeptiv mit den Lerninhalten auseinandersetzen. Um dies anzuregen sind im Folgenden einige Hinweise zur Lernaufgabenkonstruktion gegeben.
+<br/>
+<div id="accordion">
+	<h3><a href="#">Eine Lernaufgabe muss lehrzielvalide sein.</a></h3>
+	<div>Die Lernaufgabe muss das jeweilige Lehrziel korrekt abbilden, also inhaltlich auf das Lehrziel abgestimmt sein. Dafür muss sie den Möglichkeiten der Lehrgestaltung angepasst sein. Die Lernaufgaben sollte auf die Menge der Aufgaben abgestimmt sein, die das Lehrziel beschreiben. Damit kann die parallele Zielvalidität gesichert werden. Wenn das Lehrziel die Addition mit Zehnerübertrag ist, muss die Lernaufgabe dementsprechend eine Additionsaufgaben mit Zehnerübertrag darstellen. </div>
+</div>
+<div id="accordion">
+<h3><a href="#">Eine Lernaufgabe muss adressatennah sein.</a></h3>
+<div>Der Inhalt sollte für den Lernenden greifbar und nach Möglichkeit motivierend sein. Das in der Lernaufgabe verwendete Beispiel muss dem Erfahrungs- und Motivationsbereich des Adressaten entsprechen. Man sollte eine Beziehung zum Adressaten herstellen. Wenn man beispielsweise Schülern den Kantschen Imperativ vermitteln will, sollte man eine Frage zur Abtreibung vermeiden. Dieses Thema ist den Schülern wenig vertraut. Stattdessen könnte man sie die Frage: „Soll ich meinen Nachbarn abschreiben lassen oder nicht?“ zur Verdeutlichung des kantschen Prinzips bearbeiten lassen.</div>
+</div>
+<div id="accordion">
+<h3><a href="#">Das Vorwissen der Lernenden ist zu beachten.</a></h3>
+<div>Bei der Konstruktion von Lernaufgaben sollte man immer das bei den Lernenden bestehende Vorwissen beachten. Das ist wichtig um zu wissen, welche Aspekte des Lehrstoff bereits bekannt sind und welche noch in besonderem Maße vermittelt werden müssen, um daran die Lernaufgabe anzupassen. Die Formulierung der Lernaufgabe sollte wenn möglich auch dazu anregen, dass die Lernenden ihr themenspezifisches Vorwissen aktivieren. Lautet zum Beispiel das Thema der Unterrichtseinheit: „Hat die Mehrheit immer recht?“, dann sollten die Lernenden angehalten werden, ihnen bekannte problematische Mehrheitsentscheidungen aus ihrem Vorwissen zu aktivieren.</div>
+</div>
+<div id="accordion">
+<h3><a href="#">Es sollte Feedback gegeben werden.</a></h3>
+<div>Nach der Bearbeitung der Lernaufgabe sollten die Lernenden eine Rückmeldung über ihre erzielte Leistung bekommen. Diese Information über die erfolgreiche oder nicht erfolgreiche Bearbeitung der Lernaufgabe kann als Grundlage für Planung des weiteren Lernverlaufs genutzt werden. Weiterhin wirkt Feedback über die erzielte Leistung motivierend. </div>
+</div>
+<div id="accordion">
+<h3><a href="#">Während der Bearbeitung sollte Lehrerhilfe geben werden.</a></h3>
+<div>Da eine Lernaufgabe keine reine Übung ist, sondern mit ihr neuer Stoff vermittelt wird muss sie so gestellt sein, dass die Lernenden während der Bearbeitung etwas Neues dazu lernen. Deshalb sollte eine Lernaufgabe nicht nur Reproduktion von Faktenwissen sondern auch Anwendung des Wissens verlangen. Um die Lernenden bei der Bearbeitung der Aufgabe zu unterstützen kann man Hinweise zum Vorgehen oder Tipps zum Einstieg, zu Hilfsmitteln und neuen Techniken angeben. Dabei sollte die Entwicklung der Fähigkeit zum kritischen Denken gefördert werden</div>
+
+</div>
+		]]></content>
+		
+		<content type="example" id="222" title="Beispiel"><![CDATA[
+		<b>Lehrziel:</b> Der Lernender sollen mindestens zwei Versorgungsgebiete der jeweiligen Koronararterie benennen können.<br/>
+
+Ausgangstext für Schüler: Schiebler: „Anatomie“; dazu: Arbeitsblatt und einleitendem Text:<br/> 
+„Das Herz ist das Organ, welches das gesamte Blut durch den Körper pumpt. Das Herz selbst muß jedoch ebenfalls mit Blut versorgt werden.
+Im Lehrbuch „Anatomie“ findet ihr auf S. 200 das Kapitel zur Blutversorgung des Herzens. Lest euch den Text durch und bearbeitet folgende Aufgaben:
+<br/>
+<b>Aufgabe 1:</b> (zu Aufgabenklasse 1)<br/>
+Benenne die zwei großen Arterien, die das Herz mit Blut versorgen!
+<br/>
+<b>Aufgabe 2:</b> (zu Aufgabenklasse 2)<br/>
+Beschrifte an folgendem Schaubild die beiden Herzkranzarterien!
+
+<img src="images/ex_herz.jpg" alt="Herz" width="400"/>
+
+		]]>
+		</content>
+
+		<content type="application" id="223" title="Meine_Lerneinheit"><![CDATA[
+		Entscheiden sie sich für eins ihrer derzeit aktuellen Lehrziele und konstruieren sie eine, den Richtlinien des obigen Text entsprechende Lernaufgaben zu Ihrer Lehreinheit. 
+		<br/>
+<textarea class="text-task"></textarea>
+<input type="button" onClick="javascript:subGoal.saveText();" value="speichern" />
+		]]></content>
+		</section>
+		<section id="23">
+			<title>Planung der Lehre: Motivation</title>
+			<content type="theory" id="231" title="Theorie"><![CDATA[
+			Es gibt viele verschiedene Aspekte der Thematik "Motivation" und zu Motivationstheorien. Dieses Modul soll allerdings nur die grundlegenden Fragen der Motivation von Lernenden klären. Im Zuge dessen sollen Ihnen Möglichkeiten zur Beeinflussung der (Lern-)Motivation Ihrer Lernenden aufgezeigt werden.
+			<br/>
+			Montagmorgen halb 8, die Lernenden sitzen verschlafen im Unterrichtsraum und die Lehrperson kommt hinein. Sie ist gut vorbereitet und möchte in ein neues und noch unbekanntes Themengebiet einsteigen. Als sie loslegt… Ja, was passiert? Ob die Lernenden wohl mitarbeiten? Was werden sie tun, während der Lehrende erzählt? Hören sie zu? Wie lange werden sie ihm aufmerksam folgen?
+<br/>
+Montagnachmittag 16:00 Uhr. Die Lernenden kommen nach Hause, werfen ihre Tasche in die Ecke und… Ja, was nun? Ob sie jetzt wohl etwas für die Uni tun? Was werden sie dafür tun, was nicht? Wie lange werden sie sich Zeit dafür nehmen? Diese Fragen führen uns u.a. ins Gebiet der Motivationspsychologie.
+<br/>
+Alle Prozesse, die der Initiierung (Ob?), der Richtungsgebung (Was?) und der Aufrechterhaltung (Wie lange?) physischer und psychischer Aktivitäten dienen, gehören zum Themenfeld der Motivation. Sie ist ein wesentlicher Einflussfaktor auf den Lernerfolg. Wo kann man ansetzen, die Motivation gewinnbringend zu formen oder wenigstens Demotivation zu verhindern?
+<br/>
+Motivation ist u.a. abhängig vom persönlichen Interesse des Lernenden am Lehrgegenstand und der damit einhergehenden persönlichen Relevanz für ihn.<br/>
+
+<h4>Persönlichen Interesse des Lernenden am Lehrgegenstand</h4>
+
+Dieses persönliche Interesse ist abhängig von:
+
+<div id="accordion">
+	<h3><a href="#">den Vorerfahrungen;</a></h3>
+	<div>Eine essentielle Bedingung für die Entstehung von andauerndem Interesse ist die Erfahrung im entsprechenden Gebiet erfolgreich gewesen zu sein (positives Kompetenzerleben). Negative Vorerfahrungen, oft hervorgerufen durch Misserfolge bei der Aufgabenbewältigung, schmälern das Konzept der eigenen Fähigkeiten des Lernenden und können im Extremfall zur Überzeugung führen, unfähig auf dem jeweiligen Gebiet zu sein und zu bleiben. Unterricht ohne Misserfolge ist selbstverständlich nicht denkbar und auch nicht förderlich für Lernende. Misserfolge zu reduzieren kann erreicht werden durch eine Passung von Aufgabenschwierigkeit und Fähigkeiten der jeweiligen Person. Den Lernenden könnten daher Aufgaben mit unterschiedlichen Schwierigkeitsstufen angeboten werden. Zum Beispiel könnten im Mathematikunterricht der Grundschule einfache Aufgaben in der Berechnung von Summen durch einstellige Summanden bestehen und die Schwierigkeit durch das Rechnen mit mehreren und größeren Summanden gesteigert werden. Kann ein Schüler die Aufgaben einer bestimmten Schwierigkeitsstufe nicht mehr lösen, so soll er auf dem darunterliegenden Schwierigkeitsniveau weiterüben und erst nach erfolgreicher Bewältigung dieser mit schwierigeren Aufgaben fortfahren. So mischen sich Erfolgserlebnisse von bewältigten Aufgaben mit Misserfolgserlebnissen schwierigerer Aufgaben. Dies kann man zum Beispiel auch auf das Jura-Studium übertragen: zunächst müssen die Studenten Beispielfälle bearbeiten, in denen sie nur wenige, deutlich erkennbare Problemschwerpunkte berücksichtigen und prüfen müssen. Diese werden mit der Zeit immer komplexer und anspruchsvoller. <br/> Der richtige Umgang mit Misserfolgen ist eine weitere Möglichkeit negative Vorerfahrungen zu reduzieren. Dazu mehr unter dem Punkt Feedback.</div>
+</div>
+<div id="accordion">
+	<h3><a href="#">dem persönlichen Vorwissen;</a></h3>
+	<div>Wissen baut oft aufeinander auf und es erscheint trivial darauf hinzuweisen, dass fehlendes Vorwissen den weiteren Wissenserwerb enorm erschweren kann. Man stelle sich vor, ein Koch wisse nichts über die Bedienung einer Herdplatte und solle das Kochen irgendeiner Speise erlernen. Oder ein Schüler der 5. Klasse, der Schwierigkeiten im schriftlichen Dividieren hat, wird in Prozentrechnung unterrichtet. Oder ein Student der Fachrichtung Maschinenbau versteht die physikalischen Gesetzmäßigkeiten bei der statischen Kraftübertragung nicht und soll nun Berechnungen zur dynamischen Übertragung von Kräften bei Getrieben anstellen. Misserfolge werden immer öfter auftreten und das Konzept der eigenen Fähigkeiten und die Motivation schrumpfen. Also müssen Wissenslücken ausfindig gemacht und gefüllt werden. Eine Wiederholung und kurze Übung zum Thema der vergangenen Unterrichtseinheit kann Vorwissen wieder aktivieren und kritische Defizite aufdecken. Diese Aufgabe kann aber auch vom Lernenden selbst zu großen Teilen übernommen werden. Die dazu benötigte Fähigkeit zur Selbstüberwachung und zum richtigen Umgang mit Defiziten findet sich in der Idee vom Selbstregulierten Lernen wieder. </div>
+	</div>
+<div id="accordion">
+
+	<h3><a href="#">von den persönlichen Erwartungen, wie erfolgreich man sich den betreffenden Lehrgegenstand aneignen wird;</a></h3>
+	<div>Diesen Einflussfaktor der Motivation könnte man auch als Selbstwirksamkeitserwartung bezeichnen. Er umfasst die eigenen Erwartungen, unter Berücksichtigung der persönlichen Fähigkeiten, eine Aufgabe selbstständig erfolgreich bewältigen zu können. Dabei unterliegt diese Selbsteinschätzung vielfältigen Einflüssen:
+<ul>
+	<li> <strong>Vorerfahrungen:</strong> Welche Erfahrungen habe ich bereits in ähnlichen früheren Situationen gemacht? Konnte ich in der Vergangenheit ähnlich schwierige Aufgaben meistern?</li>
+	<li><strong>Vorbilder bzw. Modellverhalten:</strong> Inwieweit sind mir Personen bekannt, die mit vergleichbaren Fähigkeiten eine solche Situation bewältigen konnten?</li>
+	<li><strong>Soziale Unterstützung:</strong> Glauben andere an mich und trauen mir die Lösung dieser Aufgabe zu?</li>
+</ul></div>
+	</div>
+<div id="accordion">
+	<h3><a href="#">von den Rückmeldungen;</a></h3>
+	<div>Bei diesem Punkt kommt es auf das Was und Wie des Feedbacks an. Nichts ist für den Lernenden demotivierender als die Rückmeldung: „Das scheint dir einfach nicht zu liegen“ oder „Deine Stärken liegen wohl in anderen Bereichen.“
+<br/>
+Auf den ersten Blick sollen diese Aussagen dem Lernenden Mut machen und seine Aufmerksamkeit auf andere Bereiche lenken, so dass er sich über seinen Misserfolg nicht mehr ärgern muss. Für den Betroffenen haben diese Aussagen jedoch einen ganz anderen Informationsgehalt: „Du kannst das einfach nicht. Da hilft auch alle Anstrengung nicht.“
+<br/>
+An diesem Beispiel wird deutlich, dass Rückmeldungen von zentraler Bedeutung sind für die weitere Motivation. Wenn Misserfolge auf konstant bleibende Ursachen zurück geführt wird, so ist es nur logisch, dass keine weiteren Anstrengungen vom Lernenden unternommen werden, da diese Faktoren nicht veränderbar sind. Das Interesse für den Unterrichtsgegenstand und die Motivation würden stark sinken. Im weiteren Verlauf würden meine Leistungen in diesem Bereich immer schlechter werden und die zuvor getroffenen Annahmen wären im Sinne einer sich selbsterfüllenden Prophezeiung bestätigt.
+<br/>
+Werden die Ursachen für einen Misserfolg jedoch in Faktoren gesehen, die veränderbar sind und eventuell sogar auf die eigene Person (internal) zurückzuführen sind, so scheint Anstrengung lohnenswert zu sein. Die Motivation und die eigenen Anstrengungen werden zunehmen zu der Hoffnung, die Misserfolgsursachen beseitigen zu können, fühhren. Dies wird wohl auch in den meisten Fällen von Erfolg gekrönt sein - vorausgesetzt, dass die eigenen Defizite bekannt sind. Dafür ist jedoch eine möglichst präzise und differenzierte Rückmeldung durch den Lehrenden notwendig. Hierbei sollte auf folgendes geachtet werden:
+<ul>
+	<li>Feedback sollte, wenn möglich, nur auf Wunsch des Lernenden hin erfolgen.</li>
+	<li>Es sollte erst erfolgen, wenn der Lernende selbst die Gelegenheit hatte, seine Leistung einzuschätzen.</li>
+	<li>Das Feedback sollte so konkret wie möglich sein.</li>
+	<li>Es sollten nur veränderbare Aspekte angesprochen werden.</li>
+	<li>Rückmeldungen sollten nicht zu umfangreich sein, damit der Lernende dieses auch wirklich verarbeiten kann.</li>
+</ul>
+Aber auch Sie als Lehrender sollten sich nicht vor dem Feedback durch ihre Lernenden scheuen, denn auch diese sind aufmerksame Beobachter, die so manchen guten Hinweis parat haben könnten.</div>
+</div>
+<div id="accordion">
+	<h3><a href="#">von der Wertschätzung des Lernenden durch den Lehrenden</a></h3>
+	<div>Der Lehrende ist während der Lehreinheit, aber auch vor allem in den Pausen nicht nur der Lehrstoff-Vermittelnde, sondern auch eine Bezugsperson für Lernende. Deshalb ist es besonders wichtig, dass er sie fair behandelt und alle gleichberechtigt sind – die Lern-Schwächeren, sowie die Lern-Stärkeren. Der Lernende geht besonders gern und auch motivierter zu Lehrveranstaltungen, wenn er dort wertgeschätzt wird, und nicht etwa Angst vor dem Lehrenden haben muss. Hier ein paar wichtige Punkte, die helfen, den Lernenden die empfohlene Wertschätzung entgegenzubringen:
+<br/>
+<strong>Fehlerbehandlung:</strong> Der Lehrende muss ein Umfeld schaffen, in der die Lernenden keine Angst davor haben müssen, Fehler zu begehen. Nichts wirkt so lernfeindlich wie das krampfhafte Bemühen, keine Fehler zu machen und der damit zusammenhängende kontraproduktive Umgang mit gemachten Fehlern. Übertriebene Fehlerangst und unüberlegte Bestrafung von gemachten Fehlern blockieren enorm und hemmen jede Form von Entwicklung. Nur wer Fehler machen darf, über die dann auch angstfrei und offen gesprochen werden kann, entwickelt und verinnerlicht neue Wahrnehmungen und gewinnt so über die schon vorhandenen Fähigkeiten hinausgehende Handlungskompetenzen.
+<strong>Persönlich angreifende Kritik:</strong> Ein oft gemachter Fehler, ebenfalls meist unbewusst, ist persönlich angreifende Kritik in unberechtigter Vehemenz am Lernenden. Eine Bemerkung wie „Das kannst du ja sowieso nicht“ haben schon den am meisten motivierten Lernenden die Lust an so manchem Fach für lange Zeit verdorben. Solche negativen Gedanken sind also nicht nur unproduktiv, sie können auf die Psyche des Lernenden tief greifenden Einfluss nehmen.
+<br/>
+<strong>Angst durch Wettbewerb:</strong> Lernende sehen sich ständig im Wettbewerb mit ihren Mitlernenden, Leistungen werden ständig miteinander verglichen. Ängstliche Lernende sehen darin oft eine starke Bedrohung, ihre Leistung fällt durch diese negative Motivation ab. Erst die gezielte Konzentration darauf, ein Umfeld zu schaffen in dem das Individuum und nicht nur seine Leistungen hervorgehoben werden, kann eine Atmosphäre erzeugen in der auch ängstliche Personen die Bereitschaft zu lernen wieder zurückerhalten. Die Aufgabe des Lehrenden ist es, keinen zu großen Wettbewerb aufkommen zu lassen – beispielsweise sollten die Lernenden gelegentlich für einen besonders guten Beitrag, oder auch für soziale Kompetenzen gelobt werden – sodass die Konzentration nicht allein und zu hundert Prozent auf der Leistung liegt und dadurch den Lernenden Angst macht.
+<br/>
+<strong>Lernerzentrierter Unterricht: </strong>Die Interessen der Lernenden sind in der Stundenplanung zu berücksichtigen. Alltagsbezogene Beispiele haben die Aufgabe für ein besseres Verständnis des Lernstoffes zu sorgen.
+<br/>
+<strong>Feedback:</strong> Rückmeldungen an die Lernenden sind unbestritten ein wichtiger Teil des Lernprozesses. Die Lernenden müssen wissen auf welchem Leistungsniveau sie sich bewegen. Das muss nicht immer in Form von Noten sein, sondern sollte auch öfters verbal erfolgen und eventuell mit Belohnungen ergänzt werden. Besonders wirksam ist ein Feedback, dass aufgabenbezogen ist in der Weise, dass der Lernende erfährt, was er besser machen muss.</div>
+	</div>
+<div id="accordion">
+	<h3><a href="#">von der Wertschätzung des Unterrichtsgegenstands durch den Lehrenden;</a></h3>
+	<div>Es ist natürlich wichtig, wenn der Lehrende möchte, dass seine Lernenden motiviert sind und den Stoff interessant finden, dass er selbst genauso denkt. Wissensvermittlung muss nicht immer ernst sein, es kann auch spaßig werden. Eine positive Atmosphäre ruft gesteigerte Motivation hervor. Der Lehrende kann, obwohl zu Beginn der Unterrichtseinheit noch ausreichend vorhanden, die Motivation kippen, beziehungsweise zerstören. Motivierte Lehrkräfte sind das A und O eines gelungenen Unterrichts, daher hat an dieser Stelle eine negative Einstellung oder übermäßiger Stress und Überlastung nichts verloren. Der Lehrende sollte einen Weg finden, wie er den Unterricht auch für sich selbst am interessantesten gestaltet – er sollte den Unterrichtsgegenstand wertschätzen, eine gute Atmosphäre schaffen, und sich insbesondere interessanten Inhalte aussuchen um diese anschaulich zu vermitteln – Merkt man dem Lehrenden die Wertschätzung an, wird diese auch an die Schüler/Studenten weitergegeben.</div>
+</div>
+
+<h4>Persönlichen Relevanz des Unterrichtsgegenstandes für den Lernenden</h4>
+Diese persönliche Relevanz ist abhängig von den persönlich wahrgenommenen Konsequenzen, falls man den betreffenden Unterrichtsgegenstand mehr oder weniger beherrscht bzw. nicht beherrscht. Die persönliche Relevanz wird immer dadurch erhöht, dass man Alltagsbeispiele anbringt, sodass der Lernende merkt, dass es auch IHN persönlich betrifft, und für ihn irgendwann relevant sein wird. Zum Beispiel im Fach Chemie: man trifft eben täglich auf verschiedenste chemische Reaktionen, und kann vielleicht so dem Schüler schmackhaft machen, dass es wichtig ist, zumindest die Grundlagen zu kennen. Bei Studenten scheint dies einfacher zu sein, da die Bedeutung einzelner Lerninhalte, z.B. spezieller Theorien leicht zugänglich ist. Jedoch besteht hier die Herausforderung des Transfers in den zukünftigen Berufsalltag: Wie kann ich das praktisch anwenden? Gelingt es dem Lehrenden, die Relevanz des Lerninhalts für den einzelnen Lernenden zu erhöhen, erhöht er definitiv auch dessen Motivation und Interesse. 
+
+<div class="literatur" id="klappe">
+<h4>Literatur</h4>
+* Rheinberg, F. & Krug, S. (1999). Motivationsförderung im Schulalltag.Göttingen: Hogrefe. 
+<br/>* Zumbach, J. & Mandl, H. (Hrsg.). Pädagogische Psychologie in Theorie und Praxis: Ein fallbasiertes Lehrbuch. Göttingen: Hogrefe.  
+<br/>*  (o.J.). <a href="http://linus.psych.tu-dresden.de/Stupla/study2000/motivschule/ErwMotivModell_start.htm">Studierplatz Selbstgesteuertes Lernen</a>. 
+</div>
+
+
+]]></content>
+<content type="application" id="231" title="Meine_Lerneinheit"><![CDATA[
+Suchen Sie sich drei der zuvor besprochenen Aspekte heraus, die Sie entweder besonders interessant finden oder die Ihnen vielleicht persönlich noch Probleme bereiten. Formulieren Sie zu jedem der drei Punkte für Sie persönlich konkrete (Verhaltens-)Anweisungen, die Sie bei der von Ihnen geplanten Lehreinheit besonders berücksichtigen wollen. 
+<br/>
+<textarea class="text-task"></textarea>
+<input type="button" onClick="javascript:subGoal.saveText();" value="speichern" />
+
+]]></content>
+		</section>
+		<section id="24">
+			<title>Planung der Lehre: Lehrmethoden</title>
+			<content type="theory" id="241" title="Theorie"><![CDATA[
+			Eine Lehrmethode besteht aus einem immer wiederkehrenden Verhaltensmuster des Lehrenden (einer Reihe von Verhaltensweisen, die immer wieder oder in einer ganz bestimmten Reihenfolge auftreten), die auf verschiedene Fachgebiete angewandt werden können, die für mehr als einen Lehrenden charakteristisch und für das Lernen relevant sind. Die Art und Weise, wie die Lehre in bestimmten Fächern abläuft, wird auch mit dem Begriff Unterrichtstechniken bezeichnet; diese Unterrichtstechniken sind Gegenstand der verschiedenen Seminare über Methodik und Didaktik. Die Lehrmethoden lassen sich nach der Gruppengröße kategorisieren:
+<div class="kasten">
+N = 1: Einzelbetreuung, programmierter Unterricht, selbstständiges Arbeiten;<br/>
+N = 2-20: Diskussionsmethode, Rollenspiel, Gruppenspiel;<br/>
+N = 20-40: Unterricht in der Klasse, Unterrichtsgespräch;<br/>
+N &gt; 40: Lehrvortrag.
+</div>
+Auf die Frage, welche Methode die Beste sei, gibt es keine Antwort, es sei denn, man spezifiziert die Lernermerkmale und die Lehrziele. Selbst dann liegen aber kaum wissenschaftliche Erkenntnisse vor.
+<br/>Dimension der Definition von Lehrmethoden:
+<ol>
+	<li> Dimension ,,Zielerreichung":
+<ul>
+	<li>Methode als Mittel zur Erreichung vorgestellter Lehr- oder Lernziele</li>
+	<li>Methode als Mittel zur Zielerreichung</li>
+	<li>Ziele harmonieren nur mit bestimmten Inhalten</li>
+</ul>
+</li>
+	<li>Dimension ,,Sachbegegnung":
+<ul>
+	<li>Lehrmethode als vermittelnde Instanz zwischen Lernenden(Subjekt) und Lehrenden (Objekt)</li>
+	<li>Lehrender muss Sachbegegnungen methodisch arrangieren</li>
+</ul>
+</li>
+	<li>Dimension ,,Lernhilfe":
+<ul>
+	<li>Lehrmethode als Lernhilfe</li>
+	<li>Schaffung möglichst günstiger Lernbedingungen für Lernende</li>
+</ul>
+</li>
+	<li>Dimension ,,Rahmung":
+<ul>
+	<li>Lehre im Rahmen der Institution Hochschule und den abgesteckten Bedingungen für Lehr-Lern-Prozesse</li>
+	<li>Spielraum für Methodenentscheidungen begrenzt</li>
+</ul>
+</li>
+</ol>
+Die Möglichkeiten und Grenzen der Wissensvermittlung werden wesentlich durch die Lernumgebung mitbestimmt. In der Lehre ist es die Aufgabe des Lehrenden – möglichst unter aktiver Einbeziehung der Lernenden – die Lernumgebung optimal zu gestalten. Dazu sollen verschiedene Unterrichtsmethoden und –medien vorgestellt werden, mit deren Hilfe die Lernumgebung gestaltet werden kann.
+
+Ihre Aufgabe in diesem Teil des Programms wird sein, sich einen Überblick über die jeweiligen vorhandenen Methoden zu verschaffen, wie die Lehre gestaltet werden kann. Dabei sollen Sie lernen, die beste Methode für den jeweiligen Lehrstoff auszuwählen.
+
+In diesem Modul werden Ihnen verschiedene Unterrichtsmethoden näher gebracht. Dabei wird geschaut, inwieweit jede Methode angewandt wird und welche Folgen sie birgt.
+
+Eine Auswahl von verschiedenen Lernumgebungen bietet die folgende Aufzählung:
+<h4>Klassische Methoden</h4>
+<img src="images/lehrmethoden.jpg" alt="Lehrmethoden" width="500"/>
+
+<div id="accordion">
+	<h3><a href="#">Frontalunterricht : Unterrichtsvortrag und erklärende Darstellung</a></h3>
+<div>Der ganze Kurs oder die ganze Vorlesung  wird von einem Lehrer unterrichtet. Dabei gestaltet die Lehrkraft den Unterricht alleine und führt diesen auch ohne selbstständiges Arbeiten der Studenten während des Vortrags durch.<br/>
+Angewandt wird diese Methode bei Anfangs- und Einführungsphasen, Wiederholungen und Zusammenfassungen. Der Lernende nimmt nur bei dem Stellen von Verständnisfragen eine aktive Rolle ein.
+Diese Methode bietet sich, wenn zu Beginn eines Lehrgebietes eine allgemeine Grundlage des Wissens geschaffen werden soll.<br/>
+Bei der Vorbereitung des Vortrags sollten vor allem drei Punkte berücksichtigt werden:
+<ul>
+	<li> Kommen Medien zum Einsatz (auf Brauchbarkeit und Kosten überprüfen).</li>
+	<li>Fühle ich mich bei dieser Aufgabe wohl (wenn nicht, andere Methode oder systematische Desensibilisierung).</li>
+	<li>Ist genügend Vorbereitungszeit vorhanden.</li>
+</ul>
+</div>
+</div>
+<div id="accordion">
+<h3><a href="#">Offene Methode</a></h3
+<div>Unter offenem Unterricht (auch als integrierte Tagespläne, Leicestershire-Modell oder informeller Unterricht bezeichnet) wird ein weitgehend individualisiertes Vorgehen bei der Kindererziehung verstanden.
+Hierbei wird der Unterricht ohne feste Vorüberlegungen und Strukturen durchgeführt. Je nach Interesse und Bedürfnis des jeweiligen Schülers oder Student wird die Methode der Unterrichtsgestaltung verändert und angepasst.<br/>
+Die Einsatzmöglichkeiten für diese Methode sind vor allem bei der Vergabe von individuell zu lösenden Aufgaben, bei denen die Schüler ihr Wissen selbst aneignen und vertiefen.
+</div>
+</div>
+
+<div class="kasten">
+<h4>Offene und humanistische Ansätze im Unterricht</h4>
+Der Lernende soll selbst mehr Verantwortung beim Festlegen dessen, was gelernt werden soll, übernehmen und mehr Fähigkeiten zur Selbstbestimmung und Selbstständigkeit erwerben. Großer Wert wird auch auf Kreativität, Interesse an den Künsten und Neugier gelegt. Noten, Tests, Stundenpläne und sogar die Anwesenheitspflicht werden aufgegeben. Der Lehrer nimmt keine überlegene Stellung mehr ein, sondern versucht, die Schüler bei ihrer Selbstverwirklichung zu unterstützen. Die intellektuellen Ergebnisse des Unterrichts sind nicht so wichtig wie die sozial-emotionalen.
+</div>
+
+<div id="accordion">
+	<h3><a href="#">Einzelarbeit</a></h3>
+<div>Bei dieser Methode arbeitet ein Lernender individuell nach seinen eigenen Maßstäben. Es werden Aufgaben nach Entwicklungsgrad und Lerngeschwindigkeit angepasst. Die Bearbeitung ist unabhängig von anderen und führt so zu individuellem Lernen.<br/>
+Der Anwendungsbereich hier ist in der Phase des Übens und Wiederholens. 
+Bei dieser Methode können individuell gute Fortschritte erzielt werden, da der Lehrende auf die jeweiligen Bedürfnisse und Fragen spezifisch eingehen kann.</div>
+</div>
+<div id="accordion">
+<h3><a href="#">Partnerarbeit</a></h3>
+<div>Währende der Partnerarbeit wird die Aufgabe, die der Lehrende vorgibt von zwei Lernenden gelöst. Dabei entsteht weniger organisatorischer Aufwand und die Aufgaben können in effektiverer Weise gelöst werden. Des Weiteren stärkt es gemeinsames Arbeiten an einem Projekt.<br/> 
+Der Anwendungsbereich liegt bei Aufgaben die für eine Person zu schwierig wären. Dadurch können ebenso soziale Interaktionen geübt werden.</div>
+</div>
+<div id="accordion">
+<h3><a href="#">Gruppenarbeit</a></h3>
+<div>Während dieser Methode arbeiten ca. drei bis sechs Lernender gemeinsam in einer Gruppe. Dabei wird ein Thema oder eine Aufgabe vom Lehrer vorgegeben die von allen Teammitgliedern bearbeitet wird. Der Lehrende nimmt dabei eine beratende Position ein. Meist wird das erarbeitete Projekt am Ende vor allen anderen Mitgliedern oder Studenten vorgestellt.<br/> 
+Der Einsatz dieser Methode liegt bei Themen wo etwas diskutiert, recherchiert beziehungsweise dargestellt wird.</div>
+</div>
+
+<p>
+Beispiele für <b>Handlungsorientierte Methoden</b>: Planspiel, Rollenspiel, Gruppen-Wettkampf, Fallstudien, Experiment, Referate, Stationen lernen 
+</p>
+<p>
+Beispiele für <b>Techniken:</b> Brainstorming, Mindmapping, Wandzeitung, Quiz & Rätsel 
+</p>
+<p>
+Beispiele für <b>Unterrichtsmedien:</b> Arbeitsblätter, Bücher (Lehrbücher, fiktionale Literatur, eBooks), Präsentationen (Power-Point, PDF), Filme, Folien (OH-Projektor), Tafel, Computer, Internet, Plakate, Zeitungen 
+</p>
+]]></content>
+<content type="example" id="242" title="Beispiel"><![CDATA[
+Als Beispiel werden wir nun kurz ein mögliches Vorgehen bei der Einführung eines neuen Lerngebietes darstellen. Wenn Sie vor der Aufgabe stehen ein neues Lerngebiet darzustellen, dann ist die beste Methode Ihren Lehrenden zuerst einen allgemeinen Überblick über den Bereich zu verschaffen. Hierfür eignet sich die Methode des Frontalunterrichtes am besten, da sie viele Informationen vermitteln können. Um jedoch das Wissen zu festigen und zu vertiefen sollten sie sich weiteren Methoden bedienen. Im Anschluss wäre es sehr sinnvoll eine Gruppenarbeit über das Thema vorzubereiten, in der die Lernenden das gehörte selbst anwenden. Nach den jeweiligen Präsentationen können Sie in weiteren Unterrichtseinheiten nun durch Einzelarbeiten jeden Lernenden individuell fördern.
+			
+			]]></content>
+			
+			<content type="application" id="243" title="Meine_Lerneinheit"><![CDATA[
+Planen Sie die Lehrmethoden für Ihre Lehreinheit. Welche Medien und Techniken unterstützen Sie bei der Umsetzung? <br/>
+<textarea class="text-task"></textarea>
+		<input type="button" onClick="javascript:subGoal.saveText();" value="speichern" />
+			]]></content>
+		</section>
+		<section id="25">
+			<title>Planung der Lehre: Förderung selbstständigen Lernens</title>
+			<content type="theory" id="251" title="Theorie"><![CDATA[
+		Selbstständiges Lernen ist selbstgesteuert. Das bedeutet, dass nicht eine Lehrkraft oder ein Lernprogramm vorgibt was wann und wie zu lernen und zu üben ist, sondern dass der Lernende diese Entscheidungen selbst vornimmt. Auch wenn der Lernende einen Unterricht besucht oder an einem Lernprogramm teilnimmt, hat er mehr oder weniger Möglichkeiten, einen Anteil des Lernens selbst zu gestalten. Dieses selber Gestalten ermöglicht eine individuelle Anpassung an das persönliche Lerntempo, Vorwissen und Interesse. Auch bei der Gestaltung der Lehre sollte ein Lehrender bei seinen Lernenden das selbständige Lernen fördern.
+Dazu gibt es zwei Möglichkeiten:
+<ul>
+	<li> Direkte Förderung: In das Unterweisungsvorhaben eine Lektion einbauen, die neben den eigentlichen Lehrstoff Methoden des selbstständigen Lernens vermittelt.</li>
+	<li>Indirekte Förderung: Den zu vermittelnden Lehrstoff bei seiner Unterweisung didaktisch so aufzubereiten, dass er seitens der Lernenden bei seiner Aneignung selbstständiges Lernen aktiviert.</li>
+</ul>
+Um eine dieser beiden Möglichkeiten realisieren zu können, ist es für einen Lehrenden hilfreich, zu versuchen, sich in seine Lernenden zu versetzen, wenn diese selbstständig lernen wollen oder müssen. Die folgenden Ratschläge sind deshalb für Lernende, in deren Lage Sie sich bitte versuchen, zu versetzen. 
+<br/>
+<h4>Hier sieben Vorschläge, die helfen können, selbstständiges Lernen erfolgreich zu gestalten:</h4>
+<ol>
+	<li>Nach Möglichkeit <strong>mit</strong> einem oder <strong>mehreren Partnern</strong> lernen. Nach dem Motto: geteiltes Leid ist halbes Leid, geteilte Freude ist doppelte Freude.</li>
+	<li>Die <strong>Lernziele</strong> so genau, wie nötig bestimmen. Einteilen in wichtige und weniger wichtige Lernziele, z.B. wie folgt, wenn es um eine Prüfungsvorbereitung geht:
+<ul>
+	<li>Welche möglichen Prüfungsfragen sind so essentiell, dass man ein Durchfallen riskiert, wenn man sie nicht beantworten kann.</li>
+	<li>Welche möglichen Prüfungsfragen sind so wichtig, dass eine gute Note unmöglich wird, wenn man sie nicht beantworten kann.</li>
+	<li>Sonstige Prüfungsfragen.</li>
+</ul>
+Hier wird eine Prüfungsvorbereitung als Beispiel zum selbstständigen Lernen verwendet. Wenn es nicht um eine Prüfungsvorbereitung geht, sondern um einen anderen Anlass zum selbständigen Lernen, dann kann man die hier gegebenen Vorschläge in geeigneter Weise umgestalten.</li>
+	<li>Das <strong>Lernmaterial</strong> zusammenstellen (Bücher, Skripte, Computerdateien, Karteikarten) und ggf. aufbereiten.</li>
+	<li>Die <strong>Bearbeitungszeit</strong> für das Lernmaterial über die zur Verfügung stehende Zeit verteilen.</li>
+	<li>Prüfen, ob die Verteilung des Lernmaterials über die zur Verfügung stehende Zeit realistisch ist und ggf. diese Verteilung den gemachten Erfahrungen rechtzeitig anpassen. Das sollte gleich bei Beginn der Prüfungsvorbereitung geschehen. Meist überschätzen sich die Lernenden, wie viel sie sich pro Tag aneignen können. Wenn dann kurz vor der Prüfung noch zu viel Lernstoff zu bewältigen ist, kann Panik ausbrechen. Wenn man rechtzeitig merkt, dass man sich verschätzt hat, kann man weniger wichtiges noch gezielt weglassen.</li>
+	<li>Den Lernstoff lernwirksam bearbeiten, d.h. aktiv mit dem Lernstoff umgehen, z.B. mit der <strong>SQ3R-Methode</strong>:
+<img src="images/sq3r.png" width="500" alt="sq3r-methode"/></li>
+	<li><strong>Prüfen</strong>, ob die Lernziele erreicht wurden und bei aufgedeckten Lücken diese schließen. Ggf. Prüfung im Rollenspiel simulieren. Meist gibt es mehr oder weniger große Unterschiede in der Qualität des Wissenserwerbes, je nachdem, ob man:
+<ul>
+	<li>meint, etwas zu wissen oder zu verstehen;</li>
+	<li>es tatsächlich weiß oder verstanden hat;</li>
+	<li>es auf Anfrage verbal gut formulieren kann, wie es in einer mündlichen Prüfung verlangt wird;</li>
+	<li>es jemand anderem erklären kann („verstanden hat jemand etwas, wenn er es anderen erklären kann!“) und</li>
+	<li>das Gelernte kritisch mit mehr oder weniger benachbarten Wissensgebieten kritisch in Verbindung bringen kann.</li>
+</ul>
+</li>
+</ol>
+
+
+<div class="literatur" id="klappe">
+<h4>Literatur</h4>
+* Günther, M., Heinze, R. & Schott, F. (1977). Konzentrierte Arbeiten - gezielt studieren. Arbeitsverhalten im Studium. Systematischer Umgang mit Fachliteratur. Prüfungsvorbereitung. München: Urban & Schwarzenberg. 
+<br/>* Hertzschuch, S., Kleppisius, S., Preusche, S., Wanzek, M. (o.J.). <a href="http://linus.psych.tu-dresden.de/Stupla/study2000/Sgl/Gesamttext1a_st.htm">Studierplatz Selbstgesteuertes Lernen</a>. 
+</div>
+
+			]]></content>
+				<content type="application" id="252" title="Meine_Lerneinheit"><![CDATA[
+Überlegen Sie, wie Sie Ihren Lehrstoff so aufbereiten, dass er bei den Lernenden selbstgesteuertes Lernen anregt! <br/>
+<textarea class="text-task"></textarea>
+		<input type="button" onClick="javascript:subGoal.saveText();" value="speichern" />
+			]]></content>
+		</section><!--
+		<section id="26">
+			<title>Zusammenfassung</title>
+			<content type="theory" id="261" title="Theorie"><![CDATA[
+		...
+			]]></content>
+		</section>-->
+	</module>
+	<module  id="3">
+		<title>Lernerfolgskontrolle</title>
+		<content type="theory" id="311" title="Theorie"><![CDATA[
+		Evaluation und Qualitätssicherung bei der Lehrstoffvermittlung sind zurzeit aktuell (PISA-Studie, Hochschulranking, Evaluation von Lehrveranstaltungen an Universitäten) und eine Aufgabe insbesondere der Pädagogischen Psychologie und der Erziehungswissenschaft. Das Modul behandelt die hierbei wichtigsten Aspekte. Die Evaluation und Qualitätssicherung gestalteter Lern- und Informationsumgebungen hat zwei Aspekte: der erste Aspekt bezieht sich auf die Evaluation der Güte der jeweiligen Lern- oder Informationsumgebungen. Dabei geht darum, wie effizient die angestrebten Ziele erreicht werden. Der zweite Aspekt betrifft die Prüfung des individuellen Lern- oder Informationserfolges und wurde bereits in Modul 2: Gestaltung der Lehre behandelt.
+<br/>
+Der Lernerfolg einer zielvaliden Lehre besteht darin, dass die Lernenden nach der Lehre die Klasse von Aufgaben, die den Lehrstoff beschreiben, im geforderten Ausmaß beherrschen.
+Lehrstofforientierter Lehre genügt den Anforderungen der parallelen Zielvalidität. Die Lehrenden stehen hierbei vor der Herausforderung, an die Lernenden die Kenntnisse zu vermitteln, welche sie für die Lösung der Prüfungsfragen benötigen.
+<br/>
+Drei Arten von Bewertungsmaßstäben:<br/>
+<table class="task-table-4">
+<tr>
+<td></td>
+<td><strong>Bezug der Bewertung</strong></td>
+<td><strong>Kurzbezeichnung</strong></td>
+<td><strong>Beschreibung</strong></td>
+</tr>
+<tr>
+<td><strong>1. soziale Bezugsnorm</strong></td>
+<td>Bezugsgruppe</td>
+<td>normorientiert</td>
+<td>klassenbezogen</td>
+</tr>
+<tr>
+<td><strong>2.individuelle Bezugsnorm</strong></td>
+<td>Individuum</td>
+<td>individuumsorientiert</td>
+<td>Lehrerzentriert</td>
+</tr>
+<tr>
+<td><strong>3. sachliche Bezugsnorm</strong></td>
+<td>Festgelegtes Kriterium</td>
+<td>kriteriumsorientiert</td>
+<td>lernzielorientiert</td>
+</tr>
+</table>
+
+
+<div class="kasten">
+<h4>Soziale Bezugsnorm</h4>
+Die Lernenden werden in eine Rangreihe gebracht, sie bekommen eine Rückmeldung in Form von Noten (Notenzuweisung 1-6). Der Lernzuwachs wird nicht zurückgemeldet. Der Motivationszuwachs wird auf Dauer geschädigt bei Leistungsschwachen, da sich nichts an der Note ändert. Des Weiteren sinkt die Motivation auch bei Leistungsstarken, diese arbeiten langsamer bzw. weniger. Der Aufwand lohnt sich nicht, sie können sich nicht mehr verbessern.<br/>
+Der Vorteil ist hier, der einzelne Lernende muss nicht für einen schlechten Unterricht büßen.
+</div>
+
+
+<div class="kasten">
+<h4>Individuelle Bezugsnorm</h4>
+Den Lernenden wird der individuelle Lernzuwachs rückgemeldet. Alle haben in Abhängigkeit vom Ausgangsniveau einen Lernzuwachsund damit wird die Motivation gefördert.
+</div>
+
+<div class="kasten">
+<h4>Sachliche Bezugsnorm</h4>
+Diese Bezugsnorm zeigt an, wie viel noch fehlt, um das Kriterium (Lernziel) zu erreichen. Es gibt manchmal Probleme, das Kriterium angemessen festzulegen.<br/>
+Die jeweilige Qualifikation hängt nicht vom Leistungsstand der Lerngruppe ab.
+</div>
+
+Bei Lernerfolgskontollen unterscheidet man:<br/>
+<ul>
+	<li> Formelle und informelle Tests</li>
+	<li>Teacher-made tests</li>
+	<li>mündliche Prüfung</li>
+	<li>Selbsteinschätzung der Lernenden</li>
+	<li>Beurteilungen als Einschätzung der Lehrenden bzw. Erziehenden</li>
+	<li>Sequentielles Testen</li>
+</ul>
+		
+		
+		]]></content>
+		<section id="31">
+			<title>Formative Lernerfolgskontrolle</title>
+			<content type="theory" id="311" title="Theorie"><![CDATA[
+			
+Ziel dieses Teilmoduls ist es, zu zeigen wie Sie während oder nach dem Unterricht überprüfen können, ob und wie viel die Lernenden gelernt haben.<br/>
+Formative Lernerfolgskontrolle stellt den Lernerfolg während des Lernprozesses fest; ihre hauptsächliche Funktion ist es, den Lernprozess zu unterstützen.<br/>
+Summative Lernerfolgskontrolle stellt den Lernerfolg am Ende des Lernprozesses fest; ihre hauptsächliche Funktion ist es, den Lernerfolg zu bewerten.<br/>
+Allerdings lassen sich die Funktionen beider Lernerfolgskontroll-Formen nicht vollkommen trennscharf unterscheiden: Denn beide unterstützen, kontrollieren und bewerten den Lernprozess. Die Differenzierung leitet sich aus der unterschiedlichen Verwendung der Prüfungsergebnisse ab.<br/>
+Die Lernerfolgskontrolle soll im Wesentlichen folgende Funktionen erfüllen:<br/>
+<ol>
+	<li> Rückmeldung für den Lernenden</li>
+	<li>Rückmeldung für den Lehrenden</li>
+	<li>Leistungsbewertung des Lernenden</li>
+</ol>
+Ihre Aufgabe hierbei ist es zu lernen, wie erfolgreich  Sie Ihre jeweilige Lehrtätigkeit überprüfen können und gegebenenfalls an  Verbesserungsvorschläge anzupassen.<br/>
+
+Aus dieser Art der Lernerfolgskontrolle entstehen einige Vorteile:<br/>
+<ul>
+	<li> Der Wissensstand der Lernenden kann angegeben werden.</li>
+	<li>Die Qualitäten des Lehrenden werden eingeschätzt.</li>
+	<li>Es erfolgt eine Überprüfung der Wirksamkeit des Programms.</li>
+	<li>Die Überarbeitung der Programmelemente kann gezielt erfolgen.</li>
+	<li>Eine erneute Überprüfung ist möglich, da die jeweiligen Einheiten noch nicht abgeschlossen sind.</li>
+	<li>Die entstanden Verbesserungsvorschläge werden von Lehrenden und Lernenden gemeinsam erarbeitet.</li>
+</ul>
+Bei der formativen Evaluation sind verschiedene Durchführungsmöglichkeiten gegeben. Man kann z.B.:
+<ul>
+	<li> Aufgaben zu Programmeinheiten formulieren,</li>
+	<li>einen Fragebogen einführen,</li>
+	<li>Gruppenarbeiten mit systematischer Beobachtung durchführen,</li>
+	<li>Gespräche unter Lernenden gestalten,</li>
+	<li>Selbsteinschätzungen abgeben und verlangen und</li>
+	<li>Verständnisfragen in regelmäßigen Abständen stellen.</li>
+</ul>
+Jedoch sollte man bei dieser Überprüfungsmöglichkeit verschiedene Aspekte beachten. Es ist wichtig, dass die formative Lernerfolgskontrolle in regelmäßigen Abständen durchgeführt wird, sodass eine stetige Verbesserung erfolgen kann. Des Weiteren sollten nicht nur die negativen, sondern auch die positiven Elemente überarbeitet werden. Die Aussagen, welche von den Lernenden getroffen werden sollten ausreichend beachtet und eingegliedert werden. Dabei ist es wichtig immer sachlich neutral zu bleiben. Außerdem sollte bei der Programmüberprüfung nicht nur dessen Einheiten Beachtung geschenkt werden, sondern auch den damit verbundenen eingesetzten Mitteln.<br/>
+
+<img src="images/lernerfolgskontrolle.jpg" alt="Schaubild" width="500" />
+
+<h4>Funktion der Lernerfolgskontrolle</h4>
+Mit der Lernerfolgskontrolle wird festgestellt, ob das Lehrziel - Erwerb einer bestimmten Kompetenz - erreicht wurde.<br/>
+Wenn die Kompetenz an sich nicht beobachtbar ist (z. B. Urteilsvermögen auf Grundlage des kategorischen Imperativs), dann wird ihr ein entsprechendes beobachtbares Verhalten - die Performanz - zugeordnet (z. B. die schriftliche Begründung einer moralischen Entscheidung im Sinne des kategorischen Imperativs).
+<h4>Bewertungsmaßstäbe</h4>
+Die Beurteilung, ob ein Lernender zu einem bestimmten Zeitpunkt eine bestimmte Kompetenz erbringt oder nicht kann norm- oder kriterienorientiert erfolgen.<br/>
+
+<strong>Normorientierte Lernerfolgskontrolle</strong>: Vergleicht die Leistungen eines einzelnen Lernenden mit einer definierten Bezugsgruppe.<br/>
+<strong> Kriterienorientierte Lernerfolgskontrolle:</strong> Überprüft, inwiefern der Lernende das gesetzte Lernziel erreicht hat.<br/>
+Je nach Zielsetzung ist die eine oder die andere Erfolgskontrolle vorzuziehen.
+Die Vorteile der kriterienorientierten Leistungsmessung liegen im bezugsgruppenunabhängigen Vergleich von Lernenden und Kriterium/Lehrziel und der inhaltlichen Interpretierbarkeit der Lernleistung, d.h. der auf die Leistungsgüte bezogenen Rückmeldung. Demgegenüber hat die normorientierte Leistungsmessung den Vorzug, Information über den Leistungsstand relativ zum Durchschnitt der Bezugsgruppe wie auch über Leistungsunterschiede in einer Bezugsgruppe zu erheben, wobei die Beurteilung eines einzelnen Lernenden unabhängig von der Güte des Unterrichts ist, wenn die Klasse die Bezugsgruppe war.<br/>
+<h4>Vorgehen</h4>
+Versucht man die Vorteile beider Verfahren zu kombinieren, ergibt sich als Kompromiss etwa folgende Vorgehen:
+<ol>
+	<li> Nach Durchführung der Lernerfolgskontrolle soll eine Tabelle erstellt werden, wo die Auswertung von Prüfungsaufgaben zusammengefasst wird</li>
+	<li>Es wird entschieden, ob alle zu einem bestimmten Lehrziel formulierten Aufgaben in die Bewertung eingehen sollen oder ob zu leichte Aufgaben, die möglicherweise Vorwissen betreffen oder zu schwere Aufgaben, die z.B. über das Lehrziel hinausgehen, eliminiert werden sollen.</li>
+	<li>Es wird entschieden, ob alle überprüften Lehrziele in die Gesamtwertung eingehen sollen. Wird z.B. ein bestimmtes, für sehr wichtig gehaltenes Lehrziel nur von sehr wenigen Lernenden erreicht, so mag daraus die Güte des vorangegangenen Unterrichts in Zweifel gezogen werden. In diesem Fall wäre es sinnvoll, das Lehrziel aus der Bewertung auszuklammern und noch einmal in Form von Aneignungsaufgaben zu behandeln.</li>
+	<li>Es wird gefragt, wie die Lehrziele untereinander zu gewichten sind.</li>
+	<li>Die gewichteten Punktwerte der einzelnen Lehrziele werden für jeden Lernenden zu einem Gesamtpunktwert addiert.</li>
+	<li>Je nach üblichen oder vorgeschriebenen Regelungen zur Notengebung wird eine Minimalpunktzahl festgelegt, die die Grenze zwischen ausreichender und mangelhafter Leistung definiert.</li>
+	<li>Nun können Intervalle zwischen der definierten Minimal- und der erreichbaren Maximalpunktzahl festgelegt werden, die den Notenbereich von „sehr gut“ bis „ausreichend“ aufteilen. Eine Aussage darüber, ob diese Intervalle gleichgroß oder in einem bestimmten anderen Verhältnis gebildet werden sollten, kann allgemeingültig nicht getroffen werden.</li>
+	<li>Danach kann die Festlegung der Noten für die einzelnen Lernenden erfolgen. Auf diese Weise kann gewährleistet werden, dass das Zustandekommen der Noten, nach explizierbaren Kriterien, für die es jeweils gute Gründe geben sollte, erfolgt ist und transparent gemacht werden.</li>
+	<li>Den Lernenden sollte man fairerweise einsichtig machen, wie man zu den Festlegungen der einzelnen Noten gekommen ist.</li>
+</ol>
+<h4>Forderungen für Lernerfolgskontrollen</h4>
+<ol>
+	<li> Voraussetzung für eine gute Erfolgskontrolle ist eine genaue Bestimmung der angestrebten Lehrziele. Dabei muss angegeben werden, welche Aufgaben ein Lernender lösen können soll, wenn er das Lehrziel erreicht hat und welchen Kompetenzgrad er dabei mindestens haben soll. Präziser gesagt, besteht das Lehrziel nicht aus der Kompetenz per se, sondern aus einem bestimmten Ausprägungsgrad der Kompetenz.</li>
+	<li>Die Aufgaben sollen aus einer repräsentativen Stichprobe aus der zugrundegelegten Aufgabenklasse sein. Es sollte eine angemessene Anzahl an Aufgaben gewählt werden. Dabei gibt es zwei Möglichkeiten: 1) Aufgabenklassen bei der man viele kurze Aufgaben konstruieren kann: Man gibt den Prozentsatz richtiger Lösungen an, den ein Lernender laut Lehrziel erreichen soll. Dann sollte man möglichst so viele Aufgaben stellen, dass der Lernende die Möglichkeit hat, den Prozentsatz der Aufgaben, die er nicht zu lösen braucht, zu realisieren. Beispiel: bei einem Kompetenzgrad von 50% richtige Lösungen mindestens 2 Aufgaben, bei 60% min. 3, bei 75% min. 4 usw 2) komplexe Aufgaben: Hierbei kann man je nach Aufgabenstruktur die Anzahl der Aufgaben reduzieren. Eine generelle Regel oder Aussage dazu ist nicht möglich.</li>
+	<li>Bei der Aufgabenauswahl soll man daran achten, dass die Einseitigkeit der Aufgaben vermieden wird.</li>
+	<li>Um die Motivation der Lernenden zu fördern, wird empfohlen die Lernerfolgskontrolle mit leichten Aufgaben zu beginnen, und in Laufe des Test den Schwierigkeitsgrad zu erhöhen.</li>
+	<li>Die Information, welche Lehrziele ein Lernender erreicht bzw. nicht erreicht hat, nützt Lehrendem und Lernendem mehr als die Mitteilung einer Note, und es ist objektiver und valider.</li>
+	<li>Prüfungsarbeiten sollten möglichst häufig kurz und homogen sein. Gegenüber Klassenarbeiten, die seltener und länger sind, sowie oft sehr unterschiedliche Aufgaben beinhalten, haben sie folgende Vorteile:<br/>
+<ul>
+	<li> Der Lehre bekommt schnell eine Rückmeldung bezüglich seines Unterrichtserfolges und kann sogleich seinen Unterricht entsprechend anpassen.</li>
+	<li>Der Lernende bekommt schnell eine Rückmeldung bezüglich seines Lernfortschrittes und kann sich ebenso unverzüglich bei seinem weiteren Lernen darauf einstellen.</li>
+	<li>Die Motivation steigt, wenn eine positive Rückmeldung bald erfolgt bzw. wenn ein Versagen leicht reparabel erscheint, da der betreffende Stoff nicht zu umfangreich ist.</li>
+</ul>
+</li>
+	<li>Der Unterrichtserfolg hängt sowohl vom Lernenden wie auch vom Lehrenden ab. Deswegen sollte auch der Lehrende in eine Erfolgskontrolle (wie z.B. Selbstreflexion, Evaluation durch Lernende, Evaluation von außen, (Supervision, Monitoring, etc.)) einbezogen werden.</li>
+	<li>Die Kontrolle muss den Lernerfolg reliabel messen. Das kann z. B. erreicht werden, indem für die einzelnen Aufgaben genau angegeben wird, für welche Performanz welche Anzahl von Punkten vergeben wird, und wie der Gesamtscore errechnet wird, also ob eventuell bestimmte Antworten gewichtet werden sollten.</li>
+	<li>Die Lernerfolgskontrolle, also die Aufgabenmenge oder eine repräsentative Stichprobe daraus, muss zielvalide sein. Eine Aufgabenmenge ist bezüglich eines bestimmten Lehrziels valide, wenn sie der Aufgabenklasse, die dieses Lehrziel definiert, eindeutig zugeordnet werden kann.</li>
+</ol>
+			
+			
+			]]></content>
+			<content type="application" id="312" title="Meine_Lerneinheit"><![CDATA[
+Überlegen Sie sich für ihre Lehreinheit, an welcher Stelle formative lernerfolgskontrollen angebracht sind und wie diese aussehen sollten. <br/>
+<textarea class="text-task"></textarea>
+		<input type="button" onClick="javascript:subGoal.saveText();" value="speichern" />
+			]]></content>
+		</section>
+	<section id="32">
+			<title>Summative Lernerfolgskontrolle</title>
+			<content type="theory" id="321" title="Theorie"><![CDATA[
+			Summative Lernerfolgskontrolle stellt den Lernerfolg am Ende des Lernprozesses fest; ihre hauptsächliche Funktion ist es, den Lernerfolg zu bewerten.
+Allerdings lassen sich die Funktionen beider Lernerfolgskontroll-Formen (Formative und Summative) nicht vollkommen trennscharf unterscheiden: Denn beide unterstützen, kontrollieren und bewerten den Lernprozess. Die Differenzierung leitet sich aus der unterschiedlichen Verwendung der Prüfungsergebnisse ab (Wehr, 2007). 
+
+Die Lernerfolgskontrolle soll im Wesentlichen folgende Funktionen erfüllen:
+<ol>
+	<li>Rückmeldung für den Lernenden</li>
+	<li>Rückmeldung für den Lehrenden</li>
+	<li>Leistungsbewertung des Lernenden</li>
+</ol>
+<h3>Summative Lernerfolgskontrolle: Erstellung einer Klassenarbeit</h3>
+Eine Klassenarbeit dient der Überprüfung der Unterrichtseinheiten. In der Realität wird natürlich eine Unterrichtseinheit, wie in den Beispielen von ca. 4 bis 6 Unterrichtsstunden, nicht durch eine Klassenarbeit überprüft. Wenn hier trotzdem eine Klassenarbeit konstruiert wird, so geschieht es übungshalber, um die betreffenden Probleme durch praktisches Üben kennen zu lernen und heraus zu arbeiten. Natürlich kann in der Regel in einer Klassenarbeit nicht alles abgefragt werden, was im Unterricht behandelt wurde. Aufgaben zu komplexen Lehrzielen erübrigen oft das Abfragen einfacher Lehrziele, wenn die richtige Lösung der Aufgaben zum komplexen Lehrziel das richtige Lösen der Aufgaben zum einfachen Lehrziel impliziert. Andererseits ist es nützlich, bei der Klassenarbeit erst eine einfache Aufwärmaufgabe zu geben, um auch schwächeren Schülern die Chance zu geben, Mut zu fassen und einige Punkte zu sammeln.
+
+<div class="literatur" id="klappe">
+<h4>Literatur</h4>
+* Böhmer, M. (1979). Lernerfolgskontrolle. Königstein: Scriptor. 
+<br/>* Kaiser, R. (2007). Die Sicht von Kursleitenden auf Lernerfolgskontrolle. In A. Kaiser, R. Kaiser, & R. Hohmann (Hrsg.), Lernertypen- Lernumgebung- Lernerfolg: Erwachsene im Lernfeld (S. 157-177). Bielefeld: Bertelsmann. 
+<br/>* Klauer, J. (1978). Handbuch der Pädagogischen Diagnostik. Düsseldorf: Pädagogischer Verlag Schwann. 
+<br/>* Schott, F., Neeb, K.-E.& Wieberg, W. (1981). Lehrstoffanalyse und Unterrichtsplanung.Braunschweig:Westermann 
+<br/>* Seel, N. (1980). Lehrzielorientierte Lernerfolgskontrolle. Frankfurt am Main, Berlin, München: Diesterweg. 
+<br/>* Wehr, S. (2007). Prüfen von Kompetenzen: Fördern durch Beurteilen. In S. Wehr & H. Ertel (Hrsg.), Aufbruch in der Hochschullehre- Kompetenzen und Lernende im Zentrum: Beiträge aus der hochschuldidaktischen Praxis (S. 185-197). Bern: Haupt. 
+</div>
+
+]]></content>
+<content type="example" id="322" title="Beispiel_Naturraum_Alpen"><![CDATA[
+Zeitlicher Rahmen: 4 Unterrichtsstunden
+
+Die Schüler sollen die unterschiedlichen Geofaktoren und deren Einwirkung im Naturraum verstehen.
+
+a) Die Schüler sollen die unterschiedlichen Geofaktoren und deren Einflüsse kennen
+
+b) Die Schüler sollen die unterschiedlichen Wirkungen verknüpfen und auf die physischen Gegebenheiten schließen.
+
+<table class="task-table-4"><tbody>
+<tr>
+<td>Lernziel</td>
+<td>Lernkontrolle</td>
+<td>Punkte</td>
+<td>Erwartungsbild</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Nenne die Länder, die Anteil an den Alpen haben!</td>
+<td>2</td>
+<td>Nennen der 7 Länder</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Erläutere die alpidische Faltungsphase und ordne sie erdgeschichtlich ein</td>
+<td>5</td>
+<td>Faltung: Kreide<br/>
+
+Zwei kont. Kein steiles Abtauchen<br/>
+Faltung<br/>
+
+Einfaltung Sedimente<br/>
+
+Durchmischung der Schichtung<br/>
+
+Metamorphose</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Siehe 2.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Siehe 2.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Nenne 2 Geofaktoren und charakterisiere ihrem Einfluss auf die Zugspitze in der alpinen Stufe</td>
+<td>4</td>
+<td>Niederschlag,<br/>
+
+Höhenlage<br/>
+
+Schnee <br/>hohes Albedo<br/>
+
+niedrige Temperaturen, da Abnahme mit der Höhe<br/>
+keine Vegetation</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Siehe 5.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Siehe 5.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Welche Klimazonen trennen die Alpen</td>
+<td>2</td>
+<td>Gemäßigte Westwind, subtropische Winterregen</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Mit welchen ökonomischen Problemen sieht sich der Bauer in Österreich konfrontiert</td>
+<td>3</td>
+<td>Suboptimaler Ertragsstandort<br/>
+
+Streichung der EU-Fördermittel<br/>
+
+Flächennutzungskonkurrenz mit Tourismus</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Nenne drei Merkmale für harten, drei für sanften Tourismus</td>
+<td>3</td>
+<td>Harter: Erschließen ohne Planung, Entwicklung Tourismus überall, Bauen bis Bedarf gedeckt ist
+
+Sanfter: Zuerst planen, dann erschließen, Ausbaugrenzen, Ausschreibung von Reservaten</td>
+</tr>
+</tbody>
+</table>
+
+Abschließender Kommentar:
+
+Der Lehrer muss folgende Aspekte bei seiner auf Beobachtungen und Analysen fußenden und auf Optimierung abzielenden Reflexion beachten:
+<ol>
+	<li>Die Frage nach dem Erreichen der 	(durch den Lehrplan vorgegebenen) Lernziele.</li>
+	<li>Die Frage nach dem Vorwissen, 	„Vorkönnen“ und Vorleben der Schüler.</li>
+	<li>Die Frage des Sozialklimas 	einschließlich der Lernende-Lehrender-Beziehung.</li>
+	<li>Aus 1. bis 3. resultiert die Frage 	nach der Angemessenheit der eigenen Methodik.</li>
+</ol>
+﻿
+]]></content>
+	<content type="example" id="323" title="Beispiel_Englischunterricht"><![CDATA[
+			<!-- p { margin-bottom: 0.08in; }h4 { margin-top: 0.14in; margin-bottom: 0in; color: rgb(79, 129, 189); }h4.western { font-family: "Cambria",serif; font-size: 12pt; font-style: italic; }h4.cjk { font-family: "DejaVu Sans"; font-size: 12pt; font-style: italic; }h4.ctl { font-size: 12pt; font-style: italic; } -->Thema:
+
+Englischunterricht 8. Klasse, Grammatik
+
+Das Simple Present Perfect (SPP)
+
+Lernziel: 	1- Die Schüler sollen selbstständig den Bildungsweg des Simple
+
+Present Perfect anhand der Beispielsätze erkennen
+
+2- Die Schüler sollen die Verwendung des SPP verstehen und
+
+anwenden können
+
+1 Unterrichtseinheit
+<ol>
+	<li>Vorbereitung 	vor der zu haltenden Stunde: Der Lehrer (= ich) schreibt 4 	Beispielsätze an die Tafel:</li>
+</ol>
+1. I have played soccer for 2 hours.<br/>
+
+2. The post office has just closed.<br/>
+
+3. I have had a lot to do since you left.<br/>
+
+4. Anna has watched all episodes of SpongeBob this week.<br/>
+Zum Schluss folgt noch eine abschließende Aufgabe (Summative Lernerfolgskontrolle), bei der die Schüler sämtliches wissen, dass sie sich in den letzten Unterrichtsstunden angeeignet haben, anwenden und präsentieren können.
+
+
+<table>
+<tbody>
+<tr>
+<td><strong>Lernziel</strong></td>
+<td>Die Schüler sollen das SPP und das PPP wissen und anwenden können und die neugelernten Zeitformen zusammen mit bereits bekannten Zeitformen verwenden können.</td>
+</tr>
+<tr>
+<td><strong>Aufgabenstellung</strong></td>
+<td>Denke dir eine Geschichte zu dem Bild aus. Verwende dabei das Simple Present Perfect und das Present Perfect 				Progressive. Versuche auch andere, dir bereits bekannte Zeitformen zu verwenden.</td>
+</tr>
+<tr>
+<td><strong>Operator</strong></td>
+<td>wissen, verstehen, anwenden</td>
+</tr>
+<tr>
+<td>
+<h4><em>Aufgabenlösung</em></h4>
+</td>
+<td>Zeitformen richtig anwenden können und eine sinnvolle Geschichte schreiben</td>
+</tr>
+<tr>
+<td><strong>Lösungskriterien/</strong>
+
+<strong>Funktion für den Lernprozess</strong></td>
+<td>Die Schüler sollten zumindest das SPP und das PPP in die Geschichte einbringen (ausreichend). Trauen sie sich auch noch andere Zeitformen zu verwenden, dann ist das sehr gut. Wieder zählt vor allem die Richtigkeit der Zeitformen.</td>
+</tr>
+</tbody>
+</table>
+
+﻿
+]]></content>
+		</section>
+<!--
+		<section id="33">
+			<title>Zusammenfassung</title>
+			<content type="theory" id="331" title="Theorie"><![CDATA[
+			<p>
+<strong>Lernerfolgskontrolle</strong>: Mit der Lernerfolgskontrolle wird festgestellt, ob das Lehrziel - Erwerb einer bestimmten Kompetenz - erreicht wurde. Dazu wir die entsprechende Performanz beobachtet.
+</p>
+
+<p>
+<strong>Summative Lernerfolgskontrolle</strong>: stellt den Lernerfolg am Ende des Lernprozesses fest; ihre hauptsächliche Funktion ist es, den Lernerfolg zu bewerten.
+</p>
+
+<p>
+<strong> Normorientierte Lernerfolgskontrolle:</strong> Der Leistungsvergleich eines einzelnen Lernenden mit einer definierten Bezugsgruppe.
+</p>
+
+<p>
+<strong>Kriterien orientierte Lernerfolgskontrolle:</strong> überprüft, inwiefern der Lernende das gesetzte Lernziel erreicht hat.
+</p>
+
+<p>
+<strong>Aneignungsaufgabe:</strong> fördert die Aneignung von Lernstoffen, in Form von lernzielorientierten Übungsmaterialien, Tafelbildern, Texten, usw.
+</p>
+			]]></content>
+		</section>-->
+	</module>
+	<module  id="4">
+		<title>Qualitätssicherung</title>
+		<content type="theory" id="401" title="Theorie"><![CDATA[
+		Die Qualitätssicherung einer zielvaliden Unterrichtsgestaltung betrifft die Überprüfung der konkreten Lehreinheit und soll an dieser Stelle näher erläutert werden. Kernstück hierbei ist die Überprüfung der Effizienz des Unterrichts, und somit wie gut dem Lernenden der Lehrstoff vermittelt wurde. Des Weiteren benötigt es der Überprüfung, ob die Qualität der Lehre weiterhin den Maßstäben entspricht. Ebenso kommt es zu der Kontrolle der Lehrenden. Qualitätssicherung ermöglicht ebenfalls einen Vergleich zwischen verschiedenen Programmen, indem die Effizienz der einzelnen Elemente verglichen werden kann. 
+Aufgabe in diesem Modul wird es sein, dass sie Möglichkeiten erfahren und erlernen Ihre eigenen Lehrtätigkeiten zu überprüfen und gegebenenfalls zu verbessern. Hierfür werden wir Ihnen einige Möglichkeiten vorstellen. 
+		]]></content>
+		<section id="41">
+			<title>Möglichkeiten der Qualitätssicherung</title>
+			<content type="theory" id="411" title="Theorie"><![CDATA[
+		Die Qualitätssicherung einer lehrstofforientierten Unterrichtsgestaltung betrifft die Analyse, wie effizient ein bestimmter Unterricht in der Lage war, den betreffenden Lehrstoff den Lernenden zu vermitteln. Kernstück hierbei ist die Überprüfung der Effizienz des Unterrichts, und somit wie gut dem Lernenden der Lehrstoff vermittelt wurde. Des Weiteren benötigt es der Überprüfung, ob die Qualität der Lehre weiterhin den Maßstäben entspricht. Wenngleich ein Lehrender diese Analyse bei seinem eigenen Unterricht nicht systematisch durchführen kann, so kann er doch einiges zur Qualitätssicherung seiner Lehre tun. Natürlich ist zunächst das Problem, dass man, wenn man über sich selbst urteilt, befangen ist. Nichtsdestoweniger ist es möglich, einen Kollegen einmal der Lehre beiwohnen zu lassen, oder einen Lehrerstudenten. Darüber hinaus kann man ein Video oder eine Tonbandaufnahme mitlaufen lassen, man kann die Lernenden befragen, und man kann als Lehrender seinen Unterricht selbst noch einmal kritisch nachbereiten.
+<br/>
+Aufgabe des Moduls wird es sein, dass sie Möglichkeiten erfahren und erlernen Ihre eigenen Lehrtätigkeiten zu überprüfen und gegebenenfalls zu verbessern. Hierfür werden wir Ihnen einige Möglichkeiten vorstellen.
+Frage:
+<br/>
+Wie könnte man sicherstellen, dass Aneignungsaufgaben und Überprüfungsaufgaben <b>zielvalide</b> sind?<br/>
+<ul>
+	<li>bereits bei Aufgabenzusammenstellung für Test  muss die Itemkonstruktion regelgeleitet von statten gehen</li>
+	<li>die zu messende Fähigkeit sollte möglichst explizit bestimmt werden</li>
+	<li>Offenheit für Revisionen durch die Empirie</li>
+	<li>Zielvalidität=&gt; Inwieweit erfasst ein Satz Items die betreffende Fähigkeit aufgrund einer rationalen Aufgabenanalyse?</li>
+	<li>wünschenswert ist: die  rationale Aufgabenanalyse geht der empirischen Aufgabenanalyse stets voraus</li>
+	<li>die Ergebnisse der Empirie können möglicherweise zur Veränderung der betreffenden rationalen Aufgabenanalyse führen.</li>
+</ul>
+In diesem Modul werden sie drei Möglichkeiten erklärt bekommen, wie Sie überprüfen können, ob Ihre Lehrtätigkeit erfolgreich war. Dazu werden wir Ihnen die Methode der Selbstreflexion, Evaluation durch den Lernenden und Evaluation von außen kurz erläutern.
+
+<div class="kasten">
+<h4>Selbstreflexion</h4>
+<ul>
+	<li> z.B. durch Fremd- oder Selbsteinschätzungen</li>
+	<li>Selbsteinschätzung = betrifft den Aspekt, dass sie selbst nach durchgeführten Unterrichtseinheiten Ihre eigene Lehrmethode einschätzen, d.h. das sie z.B. anhand von Fragen sich selbst überprüfen</li>
+	<li>Fremdeinschätzung = hierbei werden sie von Dritten beurteilt. Dies kann dadurch geschehen, dass Ihre Veranstaltungen durch Kollegen hospitiert werden oder Inspektoren Ihr vorgehen einschätzen und ihnen eine ausführliche  Rückmeldung geben.</li>
+</ul>
+</div>
+
+Als Beispiel werden nun einige Fragen angeführt, die sich der Lehrende bei der Selbstreflexion stellen kann.
+<ul>
+	<li> Waren die Lernenden vom Unterrichtsthema begeistert (gute Mitarbeit Meldungen, Nachfragende, gute Unterrichtsatmosphäre)?</li>
+	<li>Habe ich auf schon vorhandene Kompetenzen und Interessen meiner Lernenden bei der Lehrgestaltung Rücksicht genommen?</li>
+	<li>War der Redeanteil meiner Lernenden insgesamt höher als mein eigener?</li>
+	<li>Wurde in meiner Lehre gelacht?</li>
+	<li>Herrschte ein Klima des gegenseitigen Respekts und der Rücksichtsnahme?</li>
+	<li>Haben meine Lernenden Verantwortung übernommen?</li>
+	<li>Habe ich die Lernenden an der Lösung von Konflikten beteiligt?</li>
+	<li>War ich transparent hinsichtlich Lehrzielen und –inhalten?</li>
+	<li>Habe ich meine Lehre deutlich gegliedert? Waren die in der Lehre behandelten Beispiele (sowohl von mir als auch von den Lernenden) realitätsnah und passend?</li>
+	<li>Waren die Lehrgespräche ertragreich?</li>
+</ul>
+
+
+
+<div class="kasten">
+<h4>Evaluation durch Lernende</h4>
+<ul>
+	<li> z.B. durch Leistungstests, Fragebögen</li>
+	<li>es werden an die Lernenden Einschätzungsbögen ausgeteilt, die diese bewerten</li>
+	<li>anschließend ist die korrekte Auswertung derer wichtig</li>
+	<li>beachten sie dabei alle positiven und negativen Urteile</li>
+	<li>halten sie gegebenenfalls Rücksprache mit den Lernenden</li>
+</ul>
+</div>
+
+<div class="kasten">
+<h4>Evaluation von außen (Supervision, Monitoring, etc.)</h4>
+<ul>
+	<li> z.B. durch systematische Beobachtung, Befragungen</li>
+	<li>Befragungen werden durch Dritte Personen an den Lernende durchgeführt, da sie selbst zu suggestiv sein können</li>
+	<li>Beobachtungen werden durch ausgebildetes Personal durchgeführt, welches Ihnen breit gefächerte Rückmeldungen gibt</li>
+	<li>Kollegen können ebenso Ihre Lehreinheiten beobachten und anschließend Rücksprache mit Ihnen halten</li>
+</ul>
+</div>
+
+<div class="literatur" id="klappe">
+<h4>Literatur</h4>
+* Mittag, S. (2006). Qualitätssicherung an Hochschulen. Eine Untersuchung zu den Folgen der Evaluation von Studium und Lehre. Münster: Waxmann. 
+<br/>* Spiel, C. (Hrsg.). (2001). Evaluation universitärer Lehre - zwischen Qualitätsmanagement und Selbstzweck. Münster: Waxmann. 
+</div>
+
+			]]></content>
+		<content type="application" id="412" title="Meine_Lerneinheit"><![CDATA[	
+			Überlegen Sie sich mehrere Möglichkeiten, wie sie die Effektivität Ihrer Unterrichtseinheit feststellen können. Bedenken sie dabei auch, in wieweit dies Ihnen zu Verbesserungsmöglichkeiten beiträgt und wie Sie diese umsetzen können.
+<br/>
+Welche Gesichtspunkt könnten in Ihrer geplanten Lehrveranstaltung zusätzlich zu den genannten noch eine Rolle spielen. <br/>
+
+<textarea class="text-task"></textarea>
+		<input type="button" onClick="javascript:subGoal.saveText();" value="speichern" />
+			
+			]]></content>
+			</section><!--
+			<section id="42">
+			<title>Zusammenfassung</title>
+			<content type="theory" id="412" title="Theorie"><![CDATA[	
+			Um die Qualität eines Unterrichts zu überprüfen genügt es nicht eine bloße Lernerfolgskontrolle ( beispielsweise in Form einer Klassenarbeit ) durchzuführen. Auch wenn die Schüler/ Studenten nach dem Unterricht das können, was der Lehrer ihnen vermitteln wollte, so heißt das nicht dass eventuelle Nebenwirkungen ( z.B. unzufriedene Schüler ) ausgeschlossen sind. Besonders wichtig ist eine weiterführende Qualitätssicherung aber, wenn die Lernerfolgskontrolle schlecht oder auch nur durchschnittlich ausgefallen ist, da so eventuelle Ursachen für dieses Ergebnis aufgedeckt werden können.
+			<br/>
+			<p>
+<strong>Qualitätssicherung</strong> analysiert, wie effizient ein bestimmter Unterricht in der Lage war, den betreffenden Lehrstoff den Lernenden zu vermitteln. 
+</p>
+<p>
+<strong>Lehreinheit</strong> ist ein abgeschlossener Bereich eines Themengebietes innerhalb einer Lehrveranstaltung. 
+</p>
+<p>
+<strong>Effizienz</strong> setzt die Größe einer erbrachten Leistung (das Ergebnis) zu der Größe des Aufwandes (die eingesetzten Mittel) in Relation. Im hiesigen Kontext beschreibt Effizienz sozusagen den Wirkungsgrad eines Programmes. 
+</p>
+			
+			]]></content>
+			</section>-->
+	</module>
+	<module  id="8">
+			<title>Glossar</title>
+			<content type="glossary" id="88" title="Glossar">
+				<item id="Aneignungsaufgabe"><![CDATA[  fördert die Aneignung von Lernstoffen, in Form von lernzielorientierten Übungsmaterialien, Tafelbildern, Texten, usw.
+   ]]></item>
+			  	<item id="Aufgabenanalyse"> <![CDATA[     ist die Aufgliederung der Gesamtaufgabe (Lehrziel) in Teilaufgaben oder Bestandteile.
+   ]]></item>
+	
+
+<item id="Bloomsche_Taxonomie"><![CDATA[ um Verhaltensaspekt in einer Tylermatrix systematisch einzuteilen nach: Wissen, Verständnis, Anwendung, Analyse, Synthese, Beurteilung
+]]></item>
+
+<item id="Bruttolehrstoff"><![CDATA[ Vorwissen zusammen mit Nettolehrstoff
+]]></item>
+
+<item id="Didaktisches_Dreieck"><![CDATA[ beschreibt die Komponenten (Stoff, Lehrer, Lernender), die zusätzlich mit den Randbedingungen den Gestaltungsraum des Unterrichts ausmachen
+]]></item>
+
+<item id="Effizienz"><![CDATA[ setzt die Größe einer erbrachten Leistung (das Ergebnis) zu der Größe des Aufwandes (die eingesetzten Mittel) in Relation. Im hiesigen Kontext beschreibt Effizienz sozusagen den Wirkungsgrad eines Programmes.
+]]></item>
+
+<item id="Evaluation"><![CDATA[ ist die Bewertung und Überprüfung von der Wirksamkeit von Programmen oder Prozessen.
+Unter formativer Evaluation versteht man Überprüfungen während der Konstruktion eines Programmes
+]]></item>
+
+<item id="GovI"><![CDATA[ Goal-valid Instruction ist ein Programm zur Lehrstoffanalyse.
+]]></item>
+
+<item id="Kriterienorientierte_Lernerfolgskontrolle"><![CDATA[ überprüft, inwiefern der Schüler das gesetzte Lernziel erreicht hat und wie erfolgreich die pädagogisch-didaktischen Bemühungen des Lehrers waren.
+]]></item>
+
+<item id="Lehreinheit"><![CDATA[ ist ein abgeschlossener Bereich eines Themengebietes innerhalb einer Lehrveranstaltung.
+]]></item>
+
+<item id="Lehrstoff"><![CDATA[ besteht aus der Angabe der Aufgaben, die man lösen kann, wenn man den Lehrstoff beherrscht und der Angabe von Kompetenzgraden, die festlegen, wie gut man die betreffenden Aufgaben beherrschen soll.
+]]></item>
+
+<item id="Lehrziel-Lernziel"><![CDATA[ Unterrichtsziele, die angeben, welche Aufgaben die Lernenden lösen, wenn sie das Unterrichtsziel erreicht haben.
+]]></item>
+
+<item id="Lehrzielmatrix_nach_Tyler"><![CDATA[ ist ein Verfahren der Aufgabenanalyse zur Lehrzielpräzisierung, wobei jede Zelle der Matrix ein Lehrziel beschreibt. Man unterscheidet: a)
+]]></item>
+
+<item id="Inhaltsaspekt"><![CDATA[ Gegenstand um den es bei Lehrziel geht (Zeilen) b) Verhaltensaspekt: was man bezüglich des Gegenstands tun können soll (Spalten)
+]]></item>
+
+<item id="Lehrzieltaxonomie"><![CDATA[ Voschlag, um die Verhaltensaspekte einer Tyler-Matrix systematisch zu gliedern
+]]></item>
+
+<item id="Lernaufgabe"><![CDATA[ Aufgaben, mittels derer die Lehrziele im Unterricht vermittelt werden sollen. Verhelfen zum Erwerb des Nettolernstoffes und damit des Lehrzieles.
+]]></item>
+
+<item id="Lernerfolgskontrolle"><![CDATA[ ist die Feststellung von beobachtbaren und geplanten Lernresultaten in Form von Verhalten (z. B. das Schreiben einer Klausur, Verfassen eines Belegs, Durchführen einer Arbeitsprobe etc.).
+]]></item>
+
+<item id="Nettolehrstoff"><![CDATA[ was zur späteren Lösung von Aufgaben noch gelernt werden muss
+Normorientierte Lernerfolgskontrolle: vergleicht die Leistungen eines Lernenden oder die einer Lerngruppe mit der Gesamtheit einer genau definierten.
+]]></item>
+
+<item id="Outputorientierung"><![CDATA[ Von Programmen ist immer dann die Rede, wenn ein bestehendes Vorkommnis (z. Bsp. Verhalten, Wissenstand) durch eine geplante und strukturierte Maßnahme in irgendeiner Weise verändert werden soll. Trainingsangebote, Unterrichtsmethoden, therapeutische Maßnahmen, Schulungen, etc sind Programme.
+]]></item>
+
+<item id="Qualitätssicherung"><![CDATA[ analysiert, wie effizient ein bestimmter Unterricht in der Lage war, den betreffenden Lehrstoff den Lernenden zu vermitteln.
+]]></item>
+
+<item id="Summative_Lernerfolgskontrolle"><![CDATA[ stellt den Lernerfolg am Ende des Lernprozesses fest; ihre hauptsächliche Funktion ist es, den Lernerfolg zu bewerten.
+]]></item>
+<item id="Transferüberlegung"><![CDATA[ Reflektion darüber, auf welche neue Situationen die Lernenden das Gelernte übertragen können sollen.
+]]></item>		
+			
+			</content>
+	</module>
+	<module id="6">
+			<title>Literatur</title>
+			<content type="literatur" id="999" title="Literatur">
+<item id="Lernzielpräzisierung_mittels_Tylermatrix"><![CDATA[
+* Schott, F., Neeb, K.-E. & Wieberg, H. (1981) Lehrstoffanalyse und Unterrichtsplanung. Braunschweig: Westermann <br />
+* Klauer, K. J. (2011). Transfer des Lernens - Warum wir oft mehr lernen als gelehrt wird. Verlag: W. Kohlhammer.
+]]></item>
+
+<item id="Lernzielanalyse_mittels_Aufgabenanalyse"><![CDATA[
+* Schott, F., Neeb, K.-E. & Wieberg, H. (1981) Lehrstoffanalyse und Unterrichtsplanung. Braunschweig: Westermann
+<br/>* Schott, F. & Kretschmer, I. (1977). Konstruktion lerhzielvalider Testaufgaben aufgrund einer normierten Lerhstoffanalyse. In K. J. Klauer, R. Fricke, M. Herbig, H. Rupprecht und F. Schott (Hrsg.), Lehrzielorientierte Leistungsmessung (S. 26-64). Düsseldorf: Schwann.
+<br/>* Schott, F. (1975). Lehrstoffanalyse - Ein Beschreibungssystem zur Analyse von Inhalt und Verhalten bei Lehrzielen. Düsseldorf: Schwann.
+]]></item>
+
+<item id="Motivation"><![CDATA[ * Rheinberg, F. & Krug, S. (1999). Motivationsförderung im Schulalltag.Göttingen: Hogrefe.
+<br/>* Zumbach, J. & Mandl, H. (Hrsg.). Pädagogische Psychologie in Theorie und Praxis: Ein fallbasiertes Lehrbuch. Göttingen: Hogrefe.
+<br/>*  (o.J.). <a href="http://linus.psych.tu-dresden.de/Stupla/study2000/motivschule/ErwMotivModell_start.htm">Studierplatz Selbstgesteuertes Lernen</a>.
+]]></item>
+
+<item id="Förderung_selbständigen_Lernens"><![CDATA[* Günther, M., Heinze, R. & Schott, F. (1977). Konzentrierte Arbeiten - gezielt studieren. Arbeitsverhalten im Studium. Systematischer Umgang mit Fachliteratur. Prüfungsvorbereitung. München: Urban & Schwarzenberg.
+<br/>* Hertzschuch, S., Kleppisius, S., Preusche, S., Wanzek, M. (o.J.). <a href="http://linus.psych.tu-dresden.de/Stupla/study2000/Sgl/Gesamttext1a_st.htm">Studierplatz Selbstgesteuertes Lernen</a>. ]]></item>
+
+<item id="Summative_Lernerfolgskontrolle"><![CDATA[
+* Böhmer, M. (1979). Lernerfolgskontrolle. Königstein: Scriptor.
+<br/>* Kaiser, R. (2007). Die Sicht von Kursleitenden auf Lernerfolgskontrolle. In A. Kaiser, R. Kaiser, & R. Hohmann (Hrsg.), Lernertypen- Lernumgebung- Lernerfolg: Erwachsene im Lernfeld (S. 157-177). Bielefeld: Bertelsmann.
+<br/>* Klauer, J. (1978). Handbuch der Pädagogischen Diagnostik. Düsseldorf: Pädagogischer Verlag Schwann.
+<br/>* Schott, F., Neeb, K.-E.& Wieberg, W. (1981). Lehrstoffanalyse und Unterrichtsplanung. Braunschweig:Westermann
+<br/>* Seel, N. (1980). Lehrzielorientierte Lernerfolgskontrolle. Frankfurt am Main, Berlin, München: Diesterweg.
+<br/>* Wehr, S. (2007). Prüfen von Kompetenzen: Fördern durch Beurteilen. In S. Wehr & H. Ertel (Hrsg.), Aufbruch in der Hochschullehre- Kompetenzen und Lernende im Zentrum: Beiträge aus der hochschuldidaktischen Praxis (S. 185-197). Bern: Haupt.
+]]></item>
+
+<item id="Qualitätssicherung"><![CDATA[
+* Mittag, S. (2006). Qualitätssicherung an Hochschulen. Eine Untersuchung zu den Folgen der Evaluation von Studium und Lehre. Münster: Waxmann.
+<br/>* Spiel, C. (Hrsg.). (2001). Evaluation universitärer Lehre - zwischen Qualitätsmanagement und Selbstzweck. Münster: Waxmann.
+]]></item>
+			</content>
+		</module>
+		
+</data>

@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+  <head>
+    <title>highscore list</title>
+    <link type="text/css" href="style/ui-lightness/jquery-ui-1.7.2.custom.css" rel="stylesheet" />
+		<link type="text/css" href="style/jquery.ui.autocomplete.custom.css" rel="stylesheet" />
+		<link type="text/css" href="style/bega.main.css" rel="stylesheet" >
+  		
+	<script src="js/jquery-1.4.2.min.js"></script>
+	<script src="js/jquery.json-2.2.min.js"></script>
+	<script src="js/jquery-ui-1.8.6.custom.min.js"></script>
+	<script src="js/jquery.inherit-1.1.1.js"></script>
+	<script src="js/jquery.tinysort.js"></script>
+	<script src="js/jquery.tooltip.js"></script>
+	<script src="js/jquery-jtemplates.js"></script>
+	<script src="upload/ajaxfileupload.js"></script>
+	
+
+<meta charset="utf-8">
+<!--
+
+-->
+	
+	
+	<script type="text/html" id="item_template"> 
+	    <div class="title"><h4>{$T.person}</h4><span class="scores">100</span></div>
+	    <div class="result-details">
+	    	<table>
+	    	<thead><td></td><td colspan=2>Aktivität</td><td colspan=3>Qualität</td><td>Summe</td></thead>
+	    	<tr class="tsubhead"><td></td><td>A. erstellt</td><td>A. bewertet</td><td>richtige Lösung</td><td>A.-Schwierigkeit</td><td>A.-Verständlichkeit</td><td>-</td></tr>
+	    	<tbody>
+	    	<tr class="score-row"><td>{$T.date}</td><td>{$T.created}</td><td>{$T.rated}</td><td>{$T.solved}</td><td>0</td><td>0</td><td class="tsum">0</td></tr>
+	    	</tbody>
+	    	<tfoot>
+	    	<tr class="tsubfoot"><td>Summe</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td class="tsumsum">100</td></tr>
+	    	</tfoot>
+	    	</table>
+	    	<div class="comments"><ul></ul></div>
+	    </div>
+	</script>
+	
+	<script type="text/html" id="test_result">  
+		<td>{$T.date}</td><td>{$T.created}</td><td>{$T.rated}</td><td>{$T.solved}</td><td>0</td><td>0</td><td class="tsum">0</td>
+	</script>
+
+	<script type="text/html" id="item_task_comment">
+		{#foreach $T.tasks as task}     
+		<li>{$T.task} bam
+			<ul>{$T.task.task}</ul>
+		<li>
+		{#/for}
+	</script>
+	
+	<script type="text/html" id="item_comment">
+		{#foreach $T.task.comments as comments}     
+			<li>{$T.task.comments.comment}</li>
+		{#/for}
+	</script>
+	  	
+	<script language ="javascript">
+/**************************************************************************
+author: nseidel@ihi-zittau.de
+
+todo:
+- upload xml-files
+- quality scores
+- sum
+
+************************************************************************/
+		
+var bega = null;
+$(document).ready(function(){ 
+	bega = new Bega();
+	
+});
+
+
+var Bega = $.inherit(
+{
+	__constructor : function() {
+		var _this = this;
+		this.load("./files/dir.php");
+	//	$(this).bind('parsed', function(e){ _this.sortHighscoreList(e);});
+		this.factor['creation'] = 30;
+		this.factor['solving'] = 30;
+		this.factor['rating'] = 30;
+	},
+		
+	/* load */
+	// gets xml files of a folder, fetches them before calling a parser function
+	load : function(folder){
+		var _this = this;
+		
+		// get folder content
+		$.ajax({
+				type: "GET",
+			 	url: folder,
+			 	dataType: "text",
+				success: function(text){ 
+					// loop all xml-files 
+					$.each(text.split(';'), function(){
+						var person = this.split(/\@/)[0];
+						var date = (this.split(/\_/)[1]).split(/\ /)[0];
+						// fetch xml file
+						$.ajax({
+								type: "GET",
+			 					url: 'files/'+this,
+						 		dataType: "xml",
+								success: function(xml){ 
+									// parse xml file
+									_this.determineQuality(xml, person, date);
+
+							},
+							error: function(e){
+								throw new Error('Highscore Error: Could not find XML source: '+this);
+							}
+						});
+					});
+					
+					$.each(text.split(';'), function(){
+						var person = this.split(/\@/)[0];
+						var date = (this.split(/\_/)[1]).split(/\ /)[0];
+						// fetch xml file
+						$.ajax({
+							type: "GET",
+			 				url: 'files/'+this,
+						 	dataType: "xml",
+							success: function(xml){ 
+								// parse xml file
+								_this.determineActivity(xml, person, date);
+							},
+							error: function(e){
+								throw new Error('Highscore Error: Could not find XML source: '+this);
+							}
+						});
+					});	
+				},
+				error: function(e){
+					throw new Error('Highscore Error: Could not find folder named: '+folder);
+				}
+		});
+	},
+	
+	// variables
+	selector: '#content',
+	factor : [],
+	persons : [],
+	task_arr : [],
+
+	/**/
+	determineActivity : function(xml, person, date){
+		var _this = this;
+		
+		// prepare document traversing
+		var result = $(xml).find('assessmentResult');
+		
+		// get per person scores
+		var created = this.getNumberOfCreatedTasks(result, person);
+		var solved = this.getPointsOfSolvedTasks(result);
+		var rated = this.getNumberOfRatedTasks(result);
+		var comments = this.getComments(result, person);
+
+		// object containing all values	
+		this.persons[person] = { 
+				person: person,
+				date: date,
+				created : created * this.factor['creation'],
+				solved : solved * this.factor['solving'],
+				rated : rated * this.factor['rating'],
+				difficulty : 1,
+				intelligibility : 1,
+				comments: {tasks: comments},
+		};
+
+		this.renderHighscore(this.persons[person]);
+	},	
+	
+	/**/
+	determineQuality : function(xml, person, date){
+		// prepare document traversing
+		var result = $(xml).find('assessmentResult');
+		
+		// update per task scores	
+		var difficulty = this.getDifficultyOfTask(result);
+		var intelligibility = this.getIntelligibilityOfTask(result);
+		
+	},
+	
+	/**/
+	renderHighscore : function(obj){
+		// add new row regarding persons item
+			if($(this.selector).find('#'+obj.person).length > 0){  
+					$('#'+obj.person).find('tbody').first()
+						.append($('<tr></tr>')
+							.addClass('score-row')
+							.setTemplate($("#test_result").html())
+							.processTemplate(obj)
+						);
+			// add new item regarding person		
+			}else{
+				var item =$('<div></div>')
+					.attr('id', obj.person)
+					.addClass('klappe content-item')
+					.setTemplate($("#item_template").html())
+					.processTemplate(obj)
+					.appendTo($(this.selector))
+					.fold();
+			}
+			
+			var row_sum = 0;
+			$('#'+obj.person).find('tr.score-row').each(function(){
+				row_sum = 0;
+				$(this).find('td').each(function(){
+					if(isNumber($(this).text()) && ! $(this).hasClass('tsum')){
+						row_sum += Number($(this).text());
+					}
+				});
+				$(this).find('td.tsum').text(row_sum);
+			});
+			
+			var total_sum = 0;
+			$('#'+obj.person+' tr.score-row td.tsum').each(function(){
+				total_sum += Number($(this).text());
+			});
+			$('#'+obj.person+' .scores').text(total_sum);
+			$('#'+obj.person+' .tsumsum').text(total_sum);
+			
+			
+//								alert(obj.comments.tasks[0].task);
+			
+			
+			$.each(obj.comments.tasks, function(i, val){
+				var item = $('<li></li>').text(val.task);//.setTemplate($("#item_comment").html()).processTemplate(val);
+				$('#'+obj.person+' .comments ul').append(item);
+			});
+			
+				
+				
+					//.setTemplate($("#item_task_comment").html());
+					//if(obj.comments.tasks.length > 0)
+								
+			
+			// sort
+			$('div#content > div.content-item').tsort('div span.scores', {order:"desc"});
+	},
+	
+
+	/**/
+	getNumberOfCreatedTasks : function(el, person){
+		var created = 0;
+		$(el).find('itemResult').each(function(){
+			if($(this).attr('identifier').split(/\_/)[1] == person){
+				created++; 
+			}	
+		});
+		return created;
+	},
+	
+	/**/
+	// could be done easier through outcomeVariable[identifier=MAXPOINTS]
+	getPointsOfSolvedTasks : function(el){
+		var tasks = 0;
+		$(el).find('itemResult').each(function(){
+//			if($(this).attr('identifier').split(/\_/)[1] == person){
+				var val = $(this).find('outcomeVariable > value').text(); 
+				if (isNumber(val)){
+					tasks += Number(val);
+				}
+//			} 
+		});
+		return tasks;
+	},
+	
+	/**/
+	getNumberOfRatedTasks : function(el){
+	var rating = 0;
+		$(el).find('itemResult > candidateComment').each(function(){ 
+			if(isNumber(($(this).text()).substr(0, 1))){
+				rating++; 
+			}
+		});
+		return rating;
+	},
+	
+	getDifficultyOfTask : function(el){
+		var _this = this;
+		
+		$(el).find('itemResult').each(function(){
+			// check wether this task was not evaluated jet
+			if(_this.task_arr[$(this).attr('identifier')] == null){
+				_this.task_arr[$(this).attr('identifier')] = {wrong:0, correct:0};
+			}
+			if ($(this).find('outcomeVariable > value').text() == 0){
+				_this.task_arr[$(this).attr('identifier')].wrong ++
+			}else{
+				_this.task_arr[$(this).attr('identifier')].correct ++;
+			}
+			// alert(_this.task_arr[$(this).attr('identifier')].wrong);
+		});
+	},
+	
+	/**/
+	getIntelligibilityOfTask : function(result){
+		return 0;
+	},
+	
+	/**/
+	getComments : function(el, person){
+		var comments = [];
+		$(el).find('itemResult').each(function(){
+			var id = $(this).attr('identifier');
+			//if(comments[id] == null){ comments[id] = [];}
+			if(id.split(/\_/)[1] == person){
+				if($(this).find('candidateComment').text().length > 1){
+					comments.push({task: id, comment: $(this).find('candidateComment').text()}); // bugy
+				} 
+			}	
+		});
+		return comments;
+	},
+		
+	
+}); // end Bega	
+	
+	
+/**********************************************/
+
+// password check	
+function ajaxFileUpload(){
+		
+		$.post("upload/pass.php", {val:$('#passToUpload').val()}, function(res){ 
+			if(res.substr(0, 5) == 'balti'){	
+				startUpload();      
+				$('input').removeClass('error');
+			}else{  			
+				$('input').addClass('error');
+			}		  	
+		});
+		return false;
+}
+
+// file upload
+function startUpload(){		
+			$("#loading")
+        .ajaxStart(function(){$(this).show();})
+        .ajaxComplete(function(){$(this).hide();});
+
+        $.ajaxFileUpload({
+                url:'upload/doajaxfileupload.php',
+                secureuri:false,
+                fileElementId:'fileToUpload',
+                dataType: 'json',
+                success: function (data, status){
+                    if(typeof(data.error) != 'undefined'){
+                        if(data.error != ''){
+                            $('#upload-status').text(data.error).addClass('error');
+                        }else{
+                            $('#upload-status').text(data.msg).addClass('ok');
+                        }
+                    }
+                },
+                error: function (data, status, e){
+                    $('#upload-status').text(e);
+                }
+            }
+        );	
+}	    
+  	
+	
+	
+	
+	
+	
+	
+	
+	
+/******************************************/
+		
+		
+function isNumber (o) {
+  return ! isNaN (o-0);
+}
+		
+		
+		
+/*************************************************/		
+		
+/* Defines custom drop out box  (style: #div.klappe)*/
+		jQuery.fn.fold = function(obj) {
+				var head = $(this).find('.title');
+				var text = $('<span></span>').html($(head).parent().find('.title').remove().end().html());
+				$(this).html('').append(head).append(text);
+				head.toggle(
+					function(){ 
+						text.hide();
+					},
+					function(){
+						text.show();
+					}
+				).click();
+			};	
+	
+
+	</script>
+
+</head>
+<body>
+  <div id="page">
+    <div id="header"><h1>Highscore-Liste</h1></div>    
+    <div id="content"></div>
+  	<div id="upload">
+	  	<form name="form" action="" method="POST" enctype="multipart/form-data">
+				<input id="fileToUpload" type="file" size="38" name="fileToUpload" class="input">
+				<input id="passToUpload" type="input" size="5" name="passwd" class="passwd">
+				<button class="button" id="buttonUpload" onclick="return ajaxFileUpload();">Upload</button>
+			</form>
+  		<div id="upload-status"></div>
+  	</div>
+	</div>
+</body>
+</html>

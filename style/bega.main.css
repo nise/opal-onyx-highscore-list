@@ -1,0 +1,134 @@
+/* add styles here */
+@CHARSET "UTF-8"; 
+body {
+	font-family: arial;
+	font-size: 10px;
+	padding:0; margin:0;
+}
+
+
+
+#page{
+	margin: 30px auto; 
+	padding:0;
+	width:1234px;
+
+}
+#content{
+	width:940px;
+}
+
+
+
+div.content-item{
+	width:650px; 
+	margin:10px;
+	padding:4px 10px;
+	border-radius:5px;
+	background-color:#eee;
+}
+
+div.content-item:hover{
+	background-color:#ddd;
+}
+
+div.content-item h4 a{
+	text-decoration:none;
+	
+}
+div.content-item h4{
+	margin:0;
+	display:inline;
+}
+
+div.result-details{
+margin:10px 0px;
+}
+
+
+.title{
+font-weight:bold;
+font-size:16px;
+cursor:pointer;
+}
+
+.scores{
+float:right;
+}
+
+
+
+thead tr td{
+font-weight: bold;
+font-size: 14px;
+text-align:center;
+border-bottom:solid #222 1px;
+}
+
+tr td{
+border-right:solid #222 1px;
+padding:4px;
+font-size:12px;
+text-align:right;
+}
+
+.tsubhead{
+font-weight: bold;
+font-size: 12px;
+text-align:center;
+}
+
+.tsubhead td{
+border-bottom:solid #222 1px;
+}
+
+
+tr.tsubfoot td {
+font-weight: bold;
+border-top:solid #222 1px;
+}
+
+
+.tsum{
+font-weight: bold;
+font-size: 12px;
+}
+
+
+
+#upload{
+width:700px;
+padding:10px;
+}
+
+#fileToUpload {
+
+}
+
+.error{
+border: solid red 1px;
+}
+
+.ok{
+	border: solid green 1px;
+	width:400px;
+	padding:4px;
+}
+
+
+
+#container {
+/*	width:1216px;*/
+	height:375px;
+	padding:0;
+} 
+
+.header {
+	margin-bottom:20px;
+	color:#444;
+}
+
+#desc{
+width: 750px;
+}
+
